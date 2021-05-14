@@ -1,0 +1,52 @@
+.infotitle-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}  
+.infotitle-titles{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+}
+
+.infotitle-cname{
+    font-size: 1em;
+    top: 71px;
+    left: 46px;
+}
+
+.infotitle-classlevel{
+    font-size: .8em;
+    top: 44px;
+    left: 250px;
+}
+.infotitle-background{
+    font-size: .8em;
+    top: 44px;
+    left: 360px;
+}
+.infotitle-playername{
+    font-size: .8em;
+    top: 44px;
+    left: 480px;
+}
+
+.infotitle-race{
+    font-size: .8em;
+    top: 70px;
+    left: 250px;
+}
+.infotitle-alignment{
+    font-size: .8em;
+    top: 70px;
+    left: 360px;
+}
+.infotitle-xppoints{
+    font-size: .8em;
+    top: 70px;
+    left: 480px;
+}

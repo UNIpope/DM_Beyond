@@ -1,0 +1,33 @@
+.Moneytitle-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}  
+.Moneytitle-titles{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+
+    font-size: 1em;
+}
+
+.Moneytitle-cp{
+    top: 15.5px;
+    left: 13px;
+}
+.Moneytitle-sp{
+    top: 15.5px;
+    left: 110px;
+}
+.Moneytitle-gp{
+    top: 15.5px;
+    left: 205px;
+}
+.Moneytitle-pp{
+    top: 15.5px;
+    left: 302px;
+}

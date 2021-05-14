@@ -1,0 +1,66 @@
+.PStitle-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}  
+.PStitle-titles{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+}
+
+.PStitle-ac{
+    font-size: .93em;
+    top: 56px;
+    left: 30.3px;
+}
+.PStitle-initiative{
+    font-size: .93em;
+    top: 50px;
+    left: 82.4px;
+}
+.PStitle-speed{
+    font-size: .8em;
+    top: 61px;
+    left: 155.5px; 
+}
+
+.PStitle-deathsave{
+    font-size: .8em;
+    top: 90px;
+    left: 26.5px; 
+}
+.PStitle-deathsave-s{
+    font-size: .8em;
+    top: 99px;
+    left: 26.5px; 
+}
+.PStitle-deathsave-f{
+    font-size: .8em;
+    top: 109px;
+    left: 26.5px; 
+}
+.PStitle-hitdice{
+    font-size: .8em;
+    top: 142px;
+    left: 34px;   
+}
+.PStitle-temphp{
+    font-size: .55em;
+    top: 110.2px;
+    left: 84.4px;   
+}
+.PStitle-maxhp{
+    font-size: .55em;
+    top: 144.7px;
+    left: 85.2px;
+}
+.PStitle-currentHP{
+    font-size: .93em;
+    top: 137px;
+    left: 125.7px;
+}
