@@ -48,6 +48,7 @@
     background-color: transparent;
     border: 0;
     text-align: center;
+    outline: none;
 }
 .PSdata-currentHP{
     font-size: 2.2em;
@@ -58,6 +59,7 @@
     background-color: transparent;
     border: 0;
     text-align: center;
+    outline: none;
 }
   
 input[type=checkbox] {

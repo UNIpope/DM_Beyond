@@ -134,8 +134,8 @@ const AbilitiesSkillsData ={
 
 //money data
 const Moneydata ={
-  cp:"9999",
-  sp:"9999",
-  gp:"9999",
-  pp:"9999"
+  cp:"200",
+  sp:"90",
+  gp:"3340",
+  pp:"3"
 }

@@ -7,6 +7,7 @@
     padding: 0;
 
     background-color: var(--background-color);
+    zoom: 1.6;
 }
 
 body {
@@ -25,21 +26,23 @@ body {
 .app-container{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 192px auto auto auto;
-    grid-template-rows: 75px auto auto auto auto;
+    grid-template-columns: 244px auto auto auto;
+    grid-template-rows: 93px 183px 183px auto auto;
 }
 
 .ASdata-container{
+    /* width 192px */ 
     grid-column-start: 1;
+    zoom: 1.25;
 }
 .PSdata-container{
     grid-column-start: 2;
-    grid-row-start: 6;
+    grid-row-start: 2;
 }
 .infodata-container{
     grid-column-start: 2;
 }
 .Moneydata-container{
     grid-column-start: 2;
-    grid-row-start: 7;
+    grid-row-start: 5;
 }
