@@ -19,8 +19,8 @@ class PSdata extends React.Component {
         <p className="PSdata-hitdice PSdata-text">{hitdice}</p>
         
         <p className="PSdata-maxHP PSdata-text">{maxHP}</p>
-        <input className="PSdata-tempHP PSdata-text" defaultValue={tempHP} maxlength="3" ></input>
-        <input className="PSdata-currentHP PSdata-text" defaultValue={currentHP} maxlength="3" ></input>
+        <input className="PSdata-tempHP PSdata-text" defaultValue={tempHP} maxLength="3" ></input>
+        <input className="PSdata-currentHP PSdata-text" defaultValue={currentHP} maxLength="3" ></input>
         
         <input type="checkbox" id="chp1"/>
         <label for="checkbox1"></label>

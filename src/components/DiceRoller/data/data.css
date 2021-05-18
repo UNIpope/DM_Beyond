@@ -1,0 +1,96 @@
+.Dicedata-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    zoom: 1;
+}  
+.Dicedata-text{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+
+    position:absolute;
+    font-size: 2em;
+    width: 50px;
+    top: 7px;
+    left: 323px;
+
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+}
+
+.Dicedata-title{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+
+    position:absolute;
+    font-weight: normal;
+    font-size: 1.5em;
+    top: 10.8px;
+}
+.Dicedata-d4{
+    left: 42px;  
+}
+.Dicedata-d6{
+    left: 90px;  
+}
+.Dicedata-d8{
+    left: 137px;  
+}
+.Dicedata-d10{
+    left: 182px;  
+}
+.Dicedata-d12{
+    left: 229px;  
+}
+.Dicedata-d20{
+    left: 274px;  
+}
+
+input[type=radio] {
+    cursor: pointer;
+    visibility: hidden;
+} 
+input[type=radio]:after {
+    content: "";
+    display: inline-block;
+
+    visibility: visible;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+input[type=radio]:checked:after {
+    background-color: white;
+}
+
+.Dicedata-radio{
+    position: absolute;
+    top: 12.5px;
+}
+.Dicedata-radiod4{
+    left:23.1px;
+}
+.Dicedata-radiod6{
+    left:69.6px;
+}
+.Dicedata-radiod8{
+    left:116.2px;
+}
+.Dicedata-radiod10{
+    left:162.7px;
+}
+.Dicedata-radiod12{
+    left:209.2px;
+}
+.Dicedata-radiod20{
+    left:255.7px;
+}

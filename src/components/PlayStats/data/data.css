@@ -81,32 +81,32 @@ input[type=checkbox]:checked:after {
 
 #chp1{
     position: absolute;
-    top: 94.5px;
+    top: 94.7px;
     left: 30.2px;
 }
 #chp2{
     position: absolute;
-    top: 94.5px;
+    top: 94.7px;
     left: 42.2px;
 }
 #chp3{
     position: absolute;
-    top: 94.5px;
+    top: 94.7px;
     left: 54.2px;
 }
 
 #chf1{
     position: absolute;
-    top: 104.2px;
+    top: 104.5px;
     left: 30.2px;
 }
 #chf2{
     position: absolute;
-    top: 104.2px;
+    top: 104.5px;
     left: 42.2px;
 }
 #chf3{
     position: absolute;
-    top: 104.2px;
-    left: 54.2px;
+    top: 104.5px;
+    left: 54.3px;
 }

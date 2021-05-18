@@ -70,7 +70,7 @@ class ASdata extends React.Component {
       pbonus, str, strmod, dex, dexmod, con, 
       conmod, int, intmod, wis, wismod, cha, chamod, prof
     } = this.props;
-
+    
     return (
       <div className="ASdata-container">
         <Titles/>

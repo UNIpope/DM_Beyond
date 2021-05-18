@@ -1,9 +1,6 @@
 .AStitle-container {
-    height: 182.42px;
-    width: 201px;
     padding: 0;
     margin: 0;
-    padding-left: 3px;
     position: relative
 }  
 .AStitle-titles{
@@ -19,186 +16,186 @@
 .AStitle-inspiration{
     font-size: .9em;
     top: 50px;
-    left: 11.2px;
+    left: 8.2px;
 }
 .AStitle-pbonus{
     font-size: .9em;
     top: 50px;
-    left: 73.4px;
+    left: 70.4px;
 }
 .AStitle-perception{
     font-size: .9em;
     top: 50px;
-    left: 137.2px;
+    left: 134px;
 }
 
 .AStitle-str{
     font-size: .75em;
     top: 115.5px;
-    left: 30px;
+    left: 28px;
 }
 .AStitle-strsave{
     font-size: .7em;
-    top: 80.2px;
-    left: 112px;
+    top: 79.3px;
+    left: 110px;
 }
 .AStitle-athletics{
     font-size: .7em;
-    top: 88.2px;
-    left: 112px;
+    top: 87.3px;
+    left: 110px;
 }
 
 .AStitle-dex{
     font-size: .75em;
     top: 178px;
-    left: 30px;
+    left: 28px;
 }
 .AStitle-dexsave{
     font-size: .7em;
-    top: 142.7px;
-    left: 112px;
+    top: 142.2px;
+    left: 110px;
 }
 .AStitle-acrobatics{
     font-size: .7em;
-    top: 150.7px;
-    left: 112px;
+    top: 150.2px;
+    left: 110px;
 }
 .AStitle-sofhand{
     font-size: .7em;
-    top: 158.7px;
-    left: 112px;
+    top: 158.2px;
+    left: 110px;
 }
 .AStitle-stealth{
     font-size: .7em;
-    top: 166.8px;
-    left: 112px;
+    top: 166.2px;
+    left: 110px;
 }
 .AStitle-rope{
     font-size: .7em;
-    top: 174.8px;
-    left: 112px;
+    top: 174.2px;
+    left: 110px;
 }
 
 .AStitle-con{
     font-size: .75em;
     top: 243px;
-    left: 23px;
+    left: 21px;
 }
 .AStitle-consave{
     font-size: .7em;
-    top: 206.2px;
-    left: 112px;
+    top: 205.8px;
+    left: 110px;
 }
 .AStitle-brewing{
     font-size: .7em;
-    top: 214.2px;
-    left: 112px;
+    top: 214px;
+    left: 110px;
 }
 
 .AStitle-int{
     font-size: .75em;
     top: 306px;
-    left: 26px;
+    left: 24px;
 }
 .AStitle-intsave{
     font-size: .7em;
     top: 269px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-arcana{
     font-size: .7em;
     top: 276px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-history{
     font-size: .7em;
     top: 283.5px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-invest{
     font-size: .7em;
     top: 291px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-nature{
     font-size: .7em;
     top: 299px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-religion{
     font-size: .7em;
     top: 306.5px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-appraisal{
     font-size: .7em;
     top: 314px;
-    left: 112px;
+    left: 110px;
 }
 
 .AStitle-wis{
     font-size: .75em;
     top: 370.3px;
-    left: 33px;
+    left: 31px;
 }
 .AStitle-wissave{
     font-size: .7em;
     top: 335.5px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-ahand{
     font-size: .7em;
     top: 343.2px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-insight{
     font-size: .7em;
     top: 351.2px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-medicine{
     font-size: .7em;
     top: 359.4px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-percept{
     font-size: .7em;
     top: 367.2px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-survival{
     font-size: .7em;
     top: 375.1px;
-    left: 112px;
+    left: 110px;
 }
 
 .AStitle-cha{
     font-size: .75em;
     top: 435.3px;
-    left: 30px;
+    left: 28px;
 }
 .AStitle-chasave{
     font-size: .7em;
     top: 399.2px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-deception{
     font-size: .7em;
     top: 407px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-intimidate{
     font-size: .7em;
     top: 415px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-performance{
     font-size: .7em;
     top: 423px;
-    left: 112px;
+    left: 110px;
 }
 .AStitle-persuasion{
     font-size: .7em;
     top: 431px;
-    left: 112px;
+    left: 110px;
 }

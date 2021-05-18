@@ -1,0 +1,72 @@
+{
+    "information":{
+        "characterName": "NightBlood (James)",
+        "classLevel": "Warlock 6 / Rouge 2",
+        "race": "Half- Dragon",
+        "background": "Haunted One",
+        "alignment": "Chaotic Good",
+        "playerName": "Ya Boi",
+        "xpPoints": "34,000"
+    },
+    "playStats":{ 
+        "AC":"20", 
+        "initiative":"+4", 
+        "speed":"30", 
+        "hitdice":"8d8+2", 
+        "maxHP":"70", 
+        "tempHP":"0", 
+        "currentHP":"21"
+    },
+    "abilitiesSkills":{
+        "pbonus": "+3", 
+        "str": "15", 
+        "strmod": "+2", 
+        "dex": "19", 
+        "dexmod": "+4",
+        "con": "14", 
+        "conmod": "+2",
+        "int": "11", 
+        "intmod": "+0",
+        "wis": "08", 
+        "wismod": "-1",
+        "cha": "20", 
+        "chamod": "+5",
+        "prof":{
+            "strsave": 0,
+            "athletics": 0,
+            "dexsave": 0,
+            "acrobatics": 0,
+            "sofhand": 1,
+            "stealth": 2,
+            "userope": 0,
+            "consave": 0,
+            "brewing": 0,
+            "intsave": 0,
+            "arcana": 0,
+            "lore": 1,
+            "investigate": 1,
+            "nature": 0,
+            "religion": 0,
+            "appraisal": 0,
+            "wissave": 1,
+            "animialhand": 0,
+            "insight": 0,
+            "medicine": 0,
+            "perception": 0,
+            "survival": 1,
+            "chasave": 1,
+            "deception": 2,
+            "intimidation": 1,
+            "performance": 0,
+            "persuasion": 0
+        }
+    },
+    "money":{
+        "cp":"200",
+        "sp":"90",
+        "gp":"3340",
+        "pp":"3"
+    }
+
+
+}
