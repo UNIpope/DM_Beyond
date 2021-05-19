@@ -17,28 +17,8 @@
     font-weight: normal;
 }
 
-.action-name{
-    font-size: .8em;
-    top: 5px;
-    left: 15.5px;
-}
-.action-hitdc{
-    font-size: .8em;
-    top: 5px;
-    left: 86px;
-}
-.action-effect{
-    font-size: .8em;
-    top: 5px;
-    left: 112px;
-}
-.action-desc{
-    font-size: .8em;
-    top: 5px;
-    left: 150px;
-}
-.action-main{
+.action2-main{
     font-size: 1.3em;
-    top: 74px;
+    top: 166px;
     left: 80px;
 }

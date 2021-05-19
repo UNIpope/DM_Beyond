@@ -14,7 +14,7 @@ class Actionssize1 extends React.Component {
         <h1 className="action-effect action-title">Effect</h1>
         <h1 className="action-desc action-title">Description</h1>
         
-        <h1 className="action-main action-title">Acadadadtions</h1>
+        <h1 className="action2-main action-title">Actions</h1>
       </div>
     );
   }
