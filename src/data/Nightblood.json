@@ -66,7 +66,11 @@
         "sp":"90",
         "gp":"3340",
         "pp":"3"
-    }
-
-
+    },
+    "actions":[
+        {"name":"Nightblood","hitdc":"+8","Effect":"1d8+5","Desc":"Piercing"},
+        {"name":"Eldritch Blast","hitdc":"+9","Effect":"1d10+5","Desc":"120Ft Force"},
+        {"name":"Breath Weapon (Red)","hitdc":"13","Effect":"3d6","Desc":"15Ft Fire"},
+        {"name":"Sneak Attack","hitdc":"+0","Effect":"1d6","Desc":"Add to attacks"}
+    ]
 }

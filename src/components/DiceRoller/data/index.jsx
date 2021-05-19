@@ -5,8 +5,9 @@ import Background from "../background";
 import "./data.css"
 
 class Dicedata extends React.Component {
-    handleClick = () => {
+    Rolldice = () => {
         var radios = document.getElementsByName('dice');
+        var dicebox = document.getElementById('dicebox')
         var diceval = 20
 
         for (var i = 0, length = radios.length; i < length; i++) {
@@ -16,7 +17,13 @@ class Dicedata extends React.Component {
             }
         }
 
-        document.getElementById('dicebox').innerHTML = Math.floor(Math.random() * diceval) + 1;
+        anime({
+            easing: 'linear',
+            duration: 240,
+            update: function() {
+                dicebox.innerHTML = Math.floor(Math.random() * diceval) + 1;
+            }
+        });
     }
 
     render() {
@@ -39,7 +46,7 @@ class Dicedata extends React.Component {
             <input type="radio" className="Dicedata-radiod20 Dicedata-radio" id="d20" name="dice" value="20"/>
 
             <button 
-                onClick={this.handleClick}
+                onClick={this.Rolldice}
                 className="Dicedata-text" type="button" id="dicebox">
                 0
             </button>

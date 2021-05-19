@@ -23,22 +23,22 @@ class PSdata extends React.Component {
         <input className="PSdata-currentHP PSdata-text" defaultValue={currentHP} maxLength="3" ></input>
         
         <input type="checkbox" id="chp1"/>
-        <label for="checkbox1"></label>
+        <label htmlFor="checkbox1"></label>
 
         <input type="checkbox" id="chp2"/>
-        <label for="checkbox1"></label>
+        <label htmlFor="checkbox1"></label>
 
         <input type="checkbox" id="chp3"/>
-        <label for="checkbox1"></label>
+        <label htmlFor="checkbox1"></label>
 
         <input type="checkbox" id="chf1"/>
-        <label for="checkbox1"></label>
+        <label htmlFor="checkbox1"></label>
 
         <input type="checkbox" id="chf2"/>
-        <label for="checkbox1"></label>
+        <label htmlFor="checkbox1"></label>
 
         <input type="checkbox" id="chf3"/>
-        <label for="checkbox1"></label>
+        <label htmlFor="checkbox1"></label>
     </div>
     );
   }
