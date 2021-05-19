@@ -8,6 +8,8 @@ import Money from "./components/Money/data";
 import DiceRoller from "./components/DiceRoller/data";
 import Actions from "./components/Actions/data";
 
+import Profs from "./components/Profs/data";
+
 import chardt from "./data/Nightblood.json";
 
 class App extends React.Component {
@@ -18,9 +20,12 @@ class App extends React.Component {
         <Iformation {...chardt.information} />
         <PlayStats {...chardt.playStats}/>
         <Actions {...chardt.actions}/>
-        
+        <Profs {...chardt.profs}/>
+
         <Money {...chardt.money}/>
         <DiceRoller/>
+
+        
       </div>
     );
   }

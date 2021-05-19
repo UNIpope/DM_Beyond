@@ -1,0 +1,49 @@
+.profsback-container{
+    pointer-events: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    position: relative
+}
+
+.profsback-titles{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+    font-weight: normal;
+}
+
+.profsback-armor{
+    top: 2px;
+    left: 9px;
+
+    font-size: .9em;
+}
+.profsback-weapons{
+    top: 44px;
+    left: 9px;
+
+    font-size: .9em;
+}
+.profsback-languages{
+    top: 85px;
+    left: 9px;
+
+    font-size: .9em;
+}
+.profsback-tools{
+    top: 126px;
+    left: 9px;
+
+    font-size: .9em;
+}
+.profsback-title{
+    top: 164px;
+    left: 61px;
+
+    font-size: 1.3em;
+}

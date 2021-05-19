@@ -1,0 +1,77 @@
+.actionsdata-container{
+    pointer-events: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    position: relative
+}
+
+.actiondata-text{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position: absolute;
+    font-weight: normal;
+
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: .1px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    
+    font-size: 12.5px;
+}
+
+.actiondata-line-name{
+    width: 64px;
+    left: 16px;
+}
+.actiondata-line-hitdc{
+    width: 14px;
+    left: 87px;
+    text-align: center;
+}
+.actiondata-line-effect{
+    width: 26.5px;
+    left: 106px;
+    text-align: center;
+}
+.actiondata-line-desc{
+    width: 58px;
+    left: 139px;
+}
+
+.actiondata-singlecont{
+    position: absolute;
+}
+#actiondata-row-0{
+    top: 18px;
+}
+#actiondata-row-1{
+    top: 33.5px;
+}
+#actiondata-row-2{
+    top: 48.5px;
+}
+#actiondata-row-3{
+    top: 63.5px;
+}
+#actiondata-row-4{
+    top: 78px;
+}
+#actiondata-row-5{
+    top: 93.5px;
+}
+#actiondata-row-6{
+    top: 108.5px;
+}
+#actiondata-row-7{
+    top: 123.5px;
+}
+#actiondata-row-8{
+    top: 138.5px;
+}
+#actiondata-row-9{
+    top: 153.5px;
+}

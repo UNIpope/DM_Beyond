@@ -1,0 +1,47 @@
+.profsdata-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}  
+.profsdata-text{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+}
+
+.profsdata-armor{
+    font-size: .8em;
+    top: 16px;
+    left: 10px;
+
+    width: 183px;
+    height: 28px;
+}
+.profsdata-weapons{
+    font-size: .8em;
+    top: 57px;
+    left: 10px;
+
+    width: 183px;
+    height: 28px;
+}
+.profsdata-languages{
+    font-size: .8em;
+    top: 98px;
+    left: 10px;
+
+    width: 183px;
+    height: 28px;
+}
+.profsdata-tools{
+    font-size: .8em;
+    top: 139px;
+    left: 10px;
+
+    width: 183px;
+    height: 28px;
+} 

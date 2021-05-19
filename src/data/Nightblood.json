@@ -72,5 +72,15 @@
         {"name":"Eldritch Blast","hitdc":"+9","effect":"1d10+5","desc":"120Ft Force"},
         {"name":"Breath Weapon","hitdc":"13","effect":"3d6","desc":"15Ft Fire"},
         {"name":"Sneak Attack","hitdc":"+0","effect":"+1d6","desc":"On advantage"}
+    ],
+    "profs":{
+        "armours":"Light Armor, Medium Armor, Shields",
+        "weapons":"Martial Weapons, Simple Weapons",
+        "languages":"Abyssal, Common, Draconic, Elvish, Thieves’ Cant",
+        "tools":"Thieves' Tools"
+    },
+    "feats":[
+        {"name":"War Caster","desc":"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits\n\nYou have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.\nYou can perform the somatic components of spells even when you have weapons or a shield in one or both hands.\nWhen a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."},
+        {"name":"Blood Hound","desc":"Your keen senses are heightened beyond that of most people. Whether these senses were heightened through training, through the loss of other senses, or they simply matured as you did, you gain the following benefits:\n\nWhile conscious, whenever a creature that is small or larger moves, within 10 feet of you, you immediately become aware of its presence.\nYour attack rolls do not have disadvantage against invisible creatures that you are aware of.\nYou have advantage on Wisdom (perception) and Wisdom (survival) checks that rely on sound or smell"}
     ]
 }
