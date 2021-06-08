@@ -1,0 +1,24 @@
+.featsize1back-container{
+    pointer-events: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    position: relative
+}
+
+.featsize1back-text{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+    font-weight: normal;
+}
+
+.featsize1back-name{
+    font-size: 1.3em;
+    top: 161px;
+    left: 84px;
+}

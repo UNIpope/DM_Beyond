@@ -1,0 +1,9 @@
+.Infosquareback-container{
+    pointer-events: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    grid-row: 2;
+}

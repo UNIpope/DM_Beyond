@@ -1,0 +1,22 @@
+.classfeatsback-container{
+    padding: 0;
+    margin: 0;
+    position: relative
+}
+
+.classfeatsback-text{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+    font-weight: normal;
+}
+
+.classfeatsback-name{
+    font-size: 1.3em;
+    top: 255px;
+    left: 58px;
+}

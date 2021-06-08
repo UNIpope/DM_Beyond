@@ -1,22 +1,16 @@
 import React from "react";
 
-import Actionsbackgroundsvg from "./actionssize1-background.svg";
-import "./Actionssize1.css"
+import featsizebackground from "./featsize1-background.svg";
+import "./featsize1.css"
 
-class Actionssize1 extends React.Component {
+class Featssize1 extends React.Component {
   render() {
     return (
-      <div className="Actionsback-container">
-        <img src={Actionsbackgroundsvg} alt="background" draggable="false"/>
-
-        <h1 className="action-name action-title">Name</h1>
-        <h1 className="action-hitdc action-title">DC</h1>
-        <h1 className="action-effect action-title">Effect</h1>
-        <h1 className="action-desc action-title">Description</h1>
-        
-        <h1 className="action-main action-title">Actions</h1>
+      <div className="featsize1back-container">
+        <img src={featsizebackground} alt="background" draggable="false"/>
+        <h1 className="featsize1back-name featsize1back-text">Feats</h1>
       </div>
     );
   }
 }
-export default Actionssize1;
+export default Featssize1;

@@ -11,37 +11,45 @@
     padding: 0;
     user-select: none;
     position:absolute;
+
+    line-height: .8;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.profsdata-text::-webkit-scrollbar {
+    display: none;
 }
 
 .profsdata-armor{
     font-size: .8em;
-    top: 16px;
+    top: 18px;
     left: 10px;
 
     width: 183px;
-    height: 28px;
+    height: 25.5px;
 }
 .profsdata-weapons{
     font-size: .8em;
-    top: 57px;
+    top: 59px;
     left: 10px;
 
     width: 183px;
-    height: 28px;
+    height: 26px;
 }
 .profsdata-languages{
     font-size: .8em;
-    top: 98px;
+    top: 100px;
     left: 10px;
 
     width: 183px;
-    height: 28px;
+    height: 25.5px;
 }
 .profsdata-tools{
     font-size: .8em;
-    top: 139px;
+    top: 141px;
     left: 10px;
 
-    width: 183px;
-    height: 28px;
+    width: 181px;
+    height: 25.5px;
 } 

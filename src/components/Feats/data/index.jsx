@@ -1,17 +1,29 @@
 import React from "react";
 import "./data.css";
 
-import ActionSize1 from "../actionssize1";
-import ActionSize2 from "../actionssize2";
+import FeatSize1 from "../featssize1";
 
+function NewlineText(props) {
+  const text = props.shorttxt;
+  const newText = text.split('\n').map(str => <p className="featdata-p-shorttxt">{str}</p>);
+  console.log(newText)
+  return newText;
+}
 
 function Retline(props, i){
-  return <div className="actiondata-singlecont" id={ "actiondata-row-" + i }>
-      <p className="actiondata-text actiondata-line-name">{props.name}</p>
-      <div className="actiondata-text actiondata-line-desc">
-        <span className="actiondata-span-desc">{props.desc}</span>
+  return(
+    <div className="featdata-singlecont" id={ "featdata-row-" + i }>
+      <p className="featdata-text featdata-line-name">{props.name}</p>
+      <div className="featdata-text featdata-line-shorttxt">
+        <NewlineText {... props} />
       </div>
-  </div>
+
+      <div className="featdata-text featdata-span-desc">
+        {props.desc}
+      </div>
+
+    </div>
+    )
 }
 
 function Retdata(props) {
@@ -24,25 +36,25 @@ function Retdata(props) {
 
   if (lengthact <= 4) {
     return <div>
-        <ActionSize1 />
+        <FeatSize1 />
         {arr}
       </div>
   }
   return <div>
-    <ActionSize2 />
+    <FeatSize1 />
     {arr}
     </div>
 
 }
 
-class Actionsdata extends React.Component {
+class Featdata extends React.Component {
   render() {
     const listdata = this.props
     return (
-      <div className="actionsdata-container">
+      <div className="featdata-container">
         <Retdata {... listdata}/>
       </div>
     );
   }
 }
-export default Actionsdata;
+export default Featdata;
