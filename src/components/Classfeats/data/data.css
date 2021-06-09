@@ -1,9 +1,8 @@
 .classfeatdata-container{
     padding: 0;
     margin: 0;
-    position: relative
+    position: relative;
 }
-
 .classfeatdata-text{
     margin: 0;
     padding: 0;
@@ -13,8 +12,71 @@
 
     color: white;
     font-family:"Dunfont";
-    letter-spacing: .1px;
-    
-    font-size: 12.5px;
-    left: 10px;
+    letter-spacing: .3px;
+    line-height: .8;
+}
+.classfeatdata-text::-webkit-scrollbar {
+    display: none;
+}
+
+.classfeatdata-title{
+    top: 452.5px;
+    left: 8px;
+    width: 187px;
+    font-size: 1.25em;
+
+    text-align: center;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+.classfeatdata-row-container{
+    position: absolute;
+    width: 187px;
+    left: 9.5px;
+}
+.classfeatdata-lvl{
+    width: 20px;
+
+    text-align:left;
+    white-space: nowrap;
+    overflow:hidden;
+
+    color: var(--font-color-subtitle);
+}
+.classfeatdata-name{
+    width: 90px;
+
+    text-align: left;
+    overflow: hidden;
+}
+.classfeatdata-shorttxt{
+    width: 187px;
+    height: 60px;
+
+    text-align: left;
+    overflow:scroll;
+
+    font-size: .8em;
+    padding-top: 3px;
+    scrollbar-width: none;
+}
+.classfeatdata-shorttxt::-webkit-scrollbar {
+    display: none;
+}
+
+#classfeatdata-row-0{
+    top: 17px;
+}
+#classfeatdata-row-1{
+    top: 106px;
+}
+#classfeatdata-row-2{
+    top: 195px;
+}
+#classfeatdata-row-3{
+    top: 284px;
+}
+#classfeatdata-row-4{
+    top: 373px;
 }

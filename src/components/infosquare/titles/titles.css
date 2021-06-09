@@ -1,0 +1,141 @@
+.infosquare-container{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.infosquaretitle-titles{
+    color: var(--font-color-subtitle);
+    font-family:"Dunfont";
+
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+
+    position:absolute;
+    font-weight: normal;
+    font-size: 1.5em;
+    top: 5px;
+    height: 22px;
+
+    user-select: none;
+    cursor:pointer;
+}
+
+.infosquaretitle-titles-selected{
+    color: var(--font-color-title);
+}
+
+
+.infosquaretitle-actions{
+    left: 10px;
+}
+.infosquaretitle-spells{
+    left: 70px;
+}
+.infosquaretitle-features{
+    left: 120px;
+}
+.infosquaretitle-invent{
+    left: 190px;
+}
+.infosquaretitle-notes{
+    left: 265px;
+}
+
+
+.infosquare-hidden {
+    height:0;
+    width:0;
+    visibility:hidden;
+    display: none;
+}    
+input:checked + label {
+    color:#e0e0e0;
+}
+
+.infosquaredata-container{
+    position: absolute;
+    width: 385px;
+    height: 328.8px;
+
+    top: 37px;
+    left: 15px;
+
+    overflow:scroll;
+    scrollbar-width: none;
+}
+.infosquaredata-container::-webkit-scrollbar {
+    display: none;
+}
+
+.infosquaredata-text{
+    color: var(--font-color-subtitle);
+    font-family:"Dunfont";
+
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+
+    font-weight: normal;
+    font-size: 1em;
+
+    height: 1em;
+}
+
+.infosquaredata-title{
+    color: var(--font-color-subtitle);
+    font-family:"Dunfont";
+
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.infosquaredata-all-actions{
+    height: fit-content;
+    margin-bottom: .5em;
+}
+.infosquaredata-actions-attname{
+    color: var(--font-color-title);
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 100px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-atthitdc{
+    padding-right: 10px;
+    display: inline-block;
+    width: 20px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-atteffect{
+    padding-right: 10px;
+    display: inline-block;
+    width: 40px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-attdesc{
+    padding-right: 10px;
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+}
+
+.infosquaredata-actions-name{
+    color: var(--font-color-title);
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 100px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-desc{
+    padding-right: 10px;
+    display: inline-block;
+    width: 250px;
+    white-space: nowrap;
+}

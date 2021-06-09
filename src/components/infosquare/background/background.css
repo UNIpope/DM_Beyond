@@ -2,8 +2,8 @@
     pointer-events: none;
     user-select: none;
     padding: 0;
+    padding-top: .7px;
     margin: 0;
     position: relative;
-
-    grid-row: 2;
+    zoom:1.003;
 }

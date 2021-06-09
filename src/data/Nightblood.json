@@ -67,12 +67,6 @@
         "gp":"3340",
         "pp":"3"
     },
-    "actions":[
-        {"name":"Nightblood","hitdc":"+8","effect":"1d8+5","desc":"Piercing"},
-        {"name":"Eldritch Blast","hitdc":"+9","effect":"1d10+5","desc":"120Ft Force"},
-        {"name":"Breath Weapon","hitdc":"13","effect":"3d6","desc":"15Ft Fire"},
-        {"name":"Sneak Attack","hitdc":"+0","effect":"+1d6","desc":"On advantage"}
-    ],
     "profs":{
         "armours":"Light Armor, Medium Armor, Shields",
         "weapons":"Martial Weapons, Simple Weapons",
@@ -86,10 +80,42 @@
     "classfeats":{
         "subname":"FluxBlade",
         "abilities":[
-            {"Name":"Flux Jump","lvl":"1", "shorttxt":"1,6,10 lvl : 1,2,3 uses \nResets on a short rest.","desc":"At 1st level, You can cast the misty step spell once using this trait, this increases this increases to two at 6th and three times at 10th. You regain the ability to do so when you finish a short or long rest. "},
-            {"Name":"Gate crawler","lvl":"6", "shorttxt":"Travel past teleportation traces inside of 120ft and no older than a day. \n d20+prof vs 12 + spell lvl - count = prof mod. \n Others can join you equel to the number of flux jumps left.","desc":"At 6th level, you gain the ability to detect the traces left by teleportation. As an action, you detect the distance and direction to any traces within 120 feet of you. However, if magic obscures any details of a portal or if the trace is older than a day, this feature doesn’t reveal them. If a trace is found, using the flux warriors weapon they can make a check plus proficiency mod to reopen or utilize the the trace. The DC to do this is based on the the level of the spell used.(12 + spell level) this can be done as many times equal to prof mod. Others can come with you through the trace equal to the number of flux jump charges."},
-            {"Name":"Blink Strike","lvl":"10", "shorttxt":"On attack, 10 feet tp.\n If 2 enemys are hit then hit a 3rd","desc":"At 10th level, you gain the ability to pass between the planes in the blink of an eye.\nWhen you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.\nIf you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."},
-            {"Name":"Nope Step","lvl":"14", "shorttxt":"Reaction to being hit: tp 60ft and invisible.\nInvisiblity lasts till end of next turn or you attack. \nRecharged on short rest.","desc":"At 14th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again."}
+            {"name":"Flux Jump","lvl":"1", "shorttxt":"1,6,10 lvl : 1,2,3 uses \nResets on a short rest.","desc":"At 1st level, You can cast the misty step spell once using this trait, this increases this increases to two at 6th and three times at 10th. You regain the ability to do so when you finish a short or long rest. "},
+            {"name":"Gate crawler","lvl":"6", "shorttxt":"Travel past teleportation traces inside of 120ft and no older than a day. \n d20+prof vs 12 + spell lvl - count = prof mod. \n Others can join you equel to the number of flux jumps left.","desc":"At 6th level, you gain the ability to detect the traces left by teleportation. As an action, you detect the distance and direction to any traces within 120 feet of you. However, if magic obscures any details of a portal or if the trace is older than a day, this feature doesn’t reveal them. If a trace is found, using the flux warriors weapon they can make a check plus proficiency mod to reopen or utilize the the trace. The DC to do this is based on the the level of the spell used.(12 + spell level) this can be done as many times equal to prof mod. Others can come with you through the trace equal to the number of flux jump charges."},
+            {"name":"Blink Strike","lvl":"10", "shorttxt":"On attack, 10 feet tp.\n If 2 enemys are hit then hit a 3rd","desc":"At 10th level, you gain the ability to pass between the planes in the blink of an eye.\nWhen you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.\nIf you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."},
+            {"name":"Nope Step","lvl":"14", "shorttxt":"Reaction to being hit: tp 60ft and invisible.\nInvisiblity lasts till end of next turn or you attack. \nRecharged on short rest.","desc":"At 14th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again."}
         ]
+    },
+    "infosquare":{
+        "actions":{
+            "attack":[
+                {"name":"Nightblood","hitdc":"+8","effect":"1d8+5","desc":"Piercing"},
+                {"name":"Eldritch Blast","hitdc":"+9","effect":"1d10+5","desc":"120Ft Force"},
+                {"name":"Breath Weapon","hitdc":"13","effect":"3d6","desc":"15Ft Fire Cone.  Once a day"},
+                {"name":"Sneak Attack","hitdc":"+0","effect":"+1d6","desc":"On advantage"}
+            ],
+            "bonus":[
+                {"name":"Cunning Action","desc":"Dash, Disengage, or Hide action."},
+                {"name":"Misty Step","desc":"30ft teleport"}
+            ],
+            "reaction":[
+                {"name":"Opportunity Attack", "desc":"If a creature moves out of your reach make a melee attack."},
+                {"name":"Hellish Rebuke", "desc":"Dash, Disengage, or Hide action."},
+                {"name":"Shield", "desc":"30ft teleport"}
+            ],
+            "limited":[
+                {"name":"Sneak Attack", "desc":"+1d6 If you have advantage on the attack roll."},
+                {"name":"Polymorph Crow", "desc":"3 times a day polymorph a crow."}
+            ]
+        },
+        "spells":{
+            "type":"warlock",
+            "cantrips":[
+                {"name":"Eldritch Blast", "RangeArea":"120ft", "components":"V,S", 
+                    "effect":"1d10+5 Total Beams:2", "dur":"Instantaneous", "desc":"Ranged spell attack in the shape of crows"},
+                {"name":"Mage Hand", "RangeArea":"30ft", "components":"V,S", 
+                    "effect":"lift/move up to 4.5 KG", "dur":"1 min", "desc":"Ranged spell attack in the shape of crows"}
+               ]
+        }
     }
-}
+}   

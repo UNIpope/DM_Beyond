@@ -45,7 +45,7 @@ function positionsquare(proflvl, what) {
   return "ASdata-nonat"
 }
 
-// toggle insperation light state with on clicl 
+// toggle insperation light state with on click
 function toggletorch(e) {
   let x = e.target.getAttribute("src")
 

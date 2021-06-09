@@ -8,7 +8,6 @@ class Classfeatsback extends React.Component {
     return (
       <div className="classfeatsback-container">
         <img src={classfeatsbackground} alt="background" draggable="false"/>
-        <h1 className="classfeatsback-name classfeatsback-text">Class Features</h1>
       </div>
     );
   }
