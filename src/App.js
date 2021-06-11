@@ -8,24 +8,65 @@ import Money from "./components/Money/data";
 import DiceRoller from "./components/DiceRoller/data";
 import Profs from "./components/Profs/data";
 import ClassFeats from "./components/Classfeats/data";
-
 import Infosquare from "./components/infosquare/titles";
-
 import Settings from "./components/Settings";
 
 import chardt from "./data/Nightblood.json";
 
-class App extends React.Component {
-  render(){
+function yeqmxpc(width){
+  if (width <= 900){
+    return .9 
+  }
+  let zoom = (width + 142.67) / 1213.33
+  zoom = zoom.toFixed(1)
+  return zoom 
+}
+
+function debounce(fn, ms) {
+  let timer
+  return _ => {
+    clearTimeout(timer)
+    timer = setTimeout(_ => {
+      timer = null
+      fn.apply(this, arguments)
+    }, ms)
+  };
+}
+
+function GetZoom() {
+  const [dimensions, setDimensions] = React.useState({ 
+    width: window.innerWidth,
+    zoom: yeqmxpc(window.innerWidth)
+  })
+
+  React.useEffect(() => {
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        width: window.innerWidth,
+        zoom: yeqmxpc(window.innerWidth)
+      })
+    }, 350)
+
+    window.addEventListener('resize', debouncedHandleResize)
+
+    return _ => {
+      window.removeEventListener('resize', debouncedHandleResize)
+    }
+  })
+  
+  return dimensions.zoom
+}
+
+function App() {
     return (
-      <div className="app-container">
+      <div className="app-container" style={{zoom: GetZoom()}}>
         <div className="main-container">
           <AbilitiesSkills {...chardt.abilitiesSkills}/>
           <Iformation {...chardt.information} />
           <PlayStats {...chardt.playStats}/>
           <Profs {...chardt.profs}/>
-          <Infosquare {...chardt.infosquare}/>
-          <ClassFeats {...chardt.classfeats}/>
+          <Infosquare {...chardt}/>
+          <ClassFeats {...chardt.features.classfeats}/>
         </div>
 
         <div className="mondice-container">
@@ -39,8 +80,6 @@ class App extends React.Component {
         </div>
 
       </div>
-      
     );
-  }
 }
 export default App;

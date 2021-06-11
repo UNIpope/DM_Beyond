@@ -1,0 +1,37 @@
+.infosquaredata-magic-spellname{
+    color: var(--font-color-title);
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.infosquaredata-magic-spellrange{
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.infosquaredata-magic-spelldur{
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.infosquaredata-magic-spelleffect{
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 185px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.infosquaredata-magic-spelleffect::-webkit-scrollbar {
+    display: none;
+}

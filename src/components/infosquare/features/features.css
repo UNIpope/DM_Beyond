@@ -1,0 +1,41 @@
+.infosquaredata-actions-attname{
+    color: var(--font-color-title);
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 90px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-atthitdc{
+    padding-right: 10px;
+    display: inline-block;
+    width: 20px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-atteffect{
+    padding-right: 10px;
+    display: inline-block;
+    width: 40px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-attdesc{
+    padding-right: 10px;
+    display: inline-block;
+    width: 100px;
+    white-space: nowrap;
+}
+
+.infosquaredata-actions-name{
+    color: var(--font-color-title);
+    padding-right: 10px;
+    display: inline-block;
+
+    width: 100px;
+    white-space: nowrap;
+}
+.infosquaredata-actions-desc{
+    padding-right: 10px;
+    display: inline-block;
+    width: 250px;
+    white-space: nowrap;
+}

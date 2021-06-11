@@ -7,7 +7,7 @@ class Settings extends React.Component {
   render() {
     return (
       <div className="settings-container">
-        <img src={Cogsvg} alt="settings menu button" draggable="false"/>
+        <img onClick={() => alert('You have clicked the coooooggg.')} src={Cogsvg} alt="settings menu button" draggable="false"/>
       </div>
     );
   }

@@ -9,6 +9,7 @@
     scrollbar-width: none;
 
     background-color: var(--background-color);
+    zoom:.95;
 }
 
 :root::-webkit-scrollbar {
@@ -27,12 +28,12 @@ body {
 }
 
 .app-container{
+    padding-top: 2vh;
     margin: 0;
+
     position: absolute;
-    
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 .main-container{
@@ -43,10 +44,6 @@ body {
     
     grid-template-columns: 200px 200px 200px 200px 200px;
     grid-template-rows: 92px 92px 92px 92px 92px;
-
-    width: fit-content;
-    margin: auto;
-    padding: 0;
 }
 
 .ASdata-container{

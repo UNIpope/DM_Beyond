@@ -3,20 +3,9 @@ import "./data.css";
 
 import Classfeatsback from "../background";
 
-function NewlineText(props) {
-  const text = props.shorttxt;
-  const newText = text.split('\n').map(str => <p className="featdata-p-shorttxt">{str}</p>);
-  console.log(newText)
-  return newText;
-}
-
-function TitleOrClass(subname) {
-  if (subname){
-    return subname;
-  }
-  else{
-    return "Class Features";
-  }
+function TitleOrClass(name) {
+  if (name){ return name; }
+  else{ return "Class Features";}
 }
 
 function Retline(abilitie, i){
@@ -36,7 +25,6 @@ function ClassAbilities(abilities) {
   }
   return Array.from(arr)
 }
-
 
 class Featdata extends React.Component {
   render() {

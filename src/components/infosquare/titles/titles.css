@@ -14,7 +14,7 @@
     position:absolute;
     font-weight: normal;
     font-size: 1.5em;
-    top: 5px;
+    top: 3.5px;
     height: 22px;
 
     user-select: none;
@@ -33,13 +33,13 @@
     left: 70px;
 }
 .infosquaretitle-features{
-    left: 120px;
+    left: 125px;
 }
 .infosquaretitle-invent{
-    left: 190px;
+    left: 195px;
 }
 .infosquaretitle-notes{
-    left: 265px;
+    left: 270px;
 }
 
 
@@ -61,7 +61,7 @@ input:checked + label {
     top: 37px;
     left: 15px;
 
-    overflow:scroll;
+    overflow-y:scroll;
     scrollbar-width: none;
 }
 .infosquaredata-container::-webkit-scrollbar {
@@ -94,48 +94,7 @@ input:checked + label {
     font-size: 1.2em;
 }
 
-.infosquaredata-all-actions{
+.infosquaredata-all{
     height: fit-content;
     margin-bottom: .5em;
-}
-.infosquaredata-actions-attname{
-    color: var(--font-color-title);
-    padding-right: 10px;
-    display: inline-block;
-
-    width: 100px;
-    white-space: nowrap;
-}
-.infosquaredata-actions-atthitdc{
-    padding-right: 10px;
-    display: inline-block;
-    width: 20px;
-    white-space: nowrap;
-}
-.infosquaredata-actions-atteffect{
-    padding-right: 10px;
-    display: inline-block;
-    width: 40px;
-    white-space: nowrap;
-}
-.infosquaredata-actions-attdesc{
-    padding-right: 10px;
-    display: inline-block;
-    width: 100px;
-    white-space: nowrap;
-}
-
-.infosquaredata-actions-name{
-    color: var(--font-color-title);
-    padding-right: 10px;
-    display: inline-block;
-
-    width: 100px;
-    white-space: nowrap;
-}
-.infosquaredata-actions-desc{
-    padding-right: 10px;
-    display: inline-block;
-    width: 250px;
-    white-space: nowrap;
 }
