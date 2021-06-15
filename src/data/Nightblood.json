@@ -210,6 +210,7 @@
     "features":{
         "classfeats":{
             "subname":"FluxBlade",
+            "5important":["Flux Jump","Gate crawler"],
             "abilities":[
                 {"name":"Flux Jump","lvl":"1", "shorttxt":"1,6,10 lvl : 1,2,3 uses \nResets on a short rest.","desc":"At 1st level, You can cast the misty step spell once using this trait, this increases this increases to two at 6th and three times at 10th. You regain the ability to do so when you finish a short or long rest. "},
                 {"name":"Gate crawler","lvl":"6", "shorttxt":"Travel past teleportation traces inside of 120ft and no older than a day. \n d20+prof vs 12 + spell lvl - count = prof mod. \n Others can join you equel to the number of flux jumps left.","desc":"At 6th level, you gain the ability to detect the traces left by teleportation. As an action, you detect the distance and direction to any traces within 120 feet of you. However, if magic obscures any details of a portal or if the trace is older than a day, this feature doesn’t reveal them. If a trace is found, using the flux warriors weapon they can make a check plus proficiency mod to reopen or utilize the the trace. The DC to do this is based on the the level of the spell used.(12 + spell level) this can be done as many times equal to prof mod. Others can come with you through the trace equal to the number of flux jump charges."},
@@ -218,8 +219,12 @@
             ]
         },
         "feats":[
-            {"name":"War Caster","shorttxt":"Adv.. on Constitution saving throws.\nSomatic components with shield/weapons.\nReaction to cast a spell.","desc":"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits\n\nYou have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.\nYou can perform the somatic components of spells even when you have weapons or a shield in one or both hands.\nWhen a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."},
-            {"name":"Blood Hound","shorttxt":"Aware of creatures within 10 feet of you on movement.\nNo disadvantage against invisible creatures that you are aware of.\nAdvantage on Perception and Survival checks that rely on sound or smell.","desc":"Your keen senses are heightened beyond that of most people. Whether these senses were heightened through training, through the loss of other senses, or they simply matured as you did, you gain the following benefits:\n\nWhile conscious, whenever a creature that is small or larger moves, within 10 feet of you, you immediately become aware of its presence.\nYour attack rolls do not have disadvantage against invisible creatures that you are aware of.\nYou have advantage on Wisdom (perception) and Wisdom (survival) checks that rely on sound or smell"}
-        ]
+            {"name":"War Caster", "shorttxt":"Adv.. on Constitution saving throws.\nSomatic components with shield/weapons.\nReaction to cast a spell.","desc":"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:\n - You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.\n - You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.\n - When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."}
+        ],
+        "racialtraits":[
+            {"name":"Breath Weapon","shorttxt":"","desc":"When taking the Attack action breath weapon can replace one of the attacks. Damage and save connected to Draconic Ancestry. DC 8+Con+Prof bonus. 2d8 damage on a failed save, and half as much on a successful one. Increases to 3d8 at lv 6, 4d8 at lv 11 and 5d8 at lv 16. Can use a number of times equal to Prof bonus."},
+            {"name":"Fascinated by Mortals","shorttxt":"","desc":"Proficiency in History."}
+        ],
+        "other":[]
     }
 }

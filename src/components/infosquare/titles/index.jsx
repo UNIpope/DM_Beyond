@@ -5,6 +5,7 @@ import "./titles.css"
 
 import Magic from "../magic";
 import Actions from "../actions";
+import Features from "../features";
 
 class infosquaretitles extends React.Component {
     constructor(props){
@@ -67,11 +68,7 @@ class infosquaretitles extends React.Component {
             </div>
 
             <div style={{display: this.state.featuresdata ? 'block' : 'none' }} className="infosquaredata-container">
-
-                <p className="infosquaredata-title" >Feats:</p>
-                <p className="infosquaredata-title" >Class Featues:</p>
-                <p className="infosquaredata-title" >Racial Traits:</p>
-                <p className="infosquaredata-title" >Background Details:</p>
+                <Features {... features}/>
             </div>
 
             <div style={{display: this.state.inventdata ? 'block' : 'none' }} className="infosquaredata-container"> 
