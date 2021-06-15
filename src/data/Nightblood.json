@@ -98,6 +98,7 @@
     "powers":{
         "caster": {
             "are": true,
+            "type":"warlock:slotless",
             "spell0": {
                 "value": 3,
                 "max": 3

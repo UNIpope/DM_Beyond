@@ -15,7 +15,7 @@ import chardt from "./data/Nightblood.json";
 
 function yeqmxpc(width){
   if (width <= 900){
-    return .9 
+    return .9
   }
   let zoom = (width + 142.67) / 1213.33
   zoom = zoom.toFixed(1)
@@ -35,14 +35,12 @@ function debounce(fn, ms) {
 
 function GetZoom() {
   const [dimensions, setDimensions] = React.useState({ 
-    width: window.innerWidth,
     zoom: yeqmxpc(window.innerWidth)
   })
 
   React.useEffect(() => {
     const debouncedHandleResize = debounce(function handleResize() {
       setDimensions({
-        width: window.innerWidth,
         zoom: yeqmxpc(window.innerWidth)
       })
     }, 350)

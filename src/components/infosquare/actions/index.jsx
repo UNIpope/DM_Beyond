@@ -1,13 +1,7 @@
 import React from "react";
-
-import "./actions.css"
-
+import "./actions.css";
 
 class Actions extends React.Component {
-    constructor(props){
-        super(props);
-    }
-
     retAttackDiv = (attack) => {
         let arr = []
         
