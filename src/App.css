@@ -93,11 +93,77 @@ body {
 .infosquare-container{
     grid-row: 2;
 }
+.AS90data-container{
+    display: none;
+}
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 1000px) and (min-width: 700px){
+    .app-container{    
+        margin: auto;
+    }
+    .main-container{
+        display: grid;
+        grid-column-gap: 7px;
+        grid-row-gap: 3px;
+        grid-auto-flow: row dense;
+        
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: repeat(92px);
+    }
+    .infodata-container{
+        zoom: .95;
+        justify-self: center;
+        grid-row-start: 1;
+        grid-column: 2/5;
+    }
+    .ASdata-container{
+        zoom: 1.012;
+        justify-self: center;
+
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .PSdata-container{
+        justify-self: center;
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .actionsdata-container{
+        justify-self: center;
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .profsdata-container{
+        justify-self: center;
+        grid-row: 4;
+        grid-column: 2;
+    }
+    .classfeatdata-container{
+        display: none;
+    }
+    .infosquare-container{
+        grid-row: 2;
+        grid-column: 3;       
+    }
+    .mondice-container{
+        display : block;
+        padding-top: 4px;
+    
+        display: flex;
+        justify-content: space-around;
+    }
+    .AS90data-container{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
     .app-container{    
         left: auto;
         transform: none;
+        padding-left: 2vw;
     }
     .main-container{
         display: grid;
@@ -115,11 +181,7 @@ body {
         grid-column: 1/4;
     }
     .ASdata-container{
-        zoom: 1.012;
-        justify-self: center;
-
-        grid-row: 6;
-        grid-column: 1;
+        display: none;
     }
     .PSdata-container{
         justify-self: center;
@@ -138,15 +200,34 @@ body {
         grid-column: 1;
     }
     .classfeatdata-container{
-        justify-self: center;
-        height: 465px;
-
-        grid-row: 6;
-        grid-column: 2;
+        display: none;
     }
     .infosquare-container{
         grid-row: 2;
         grid-column: 2;       
     }
+    .AS90data-container{
+        display: inline-block;
+        zoom: 1.012;
+        grid-row: 6;
+        grid-column: 1;  
+    }
+    .mondice-container{
+        display : grid;
+        padding-top: 4px;
 
+        align-content:space-around;
+
+    }
+    .Moneydata-container{
+        width: fit-content;
+        grid-row: 1;
+    }
+    .settings-container{
+        width: fit-content;
+        grid-row: 1;
+    }
+    .Dicedata-container{
+        width: fit-content;
+    }
 }

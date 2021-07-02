@@ -1,0 +1,355 @@
+.AS90data-container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}  
+.AS90data-font{
+    color: white;
+    font-family:"Dunfont";
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    position:absolute;
+}
+
+.AS90data-insperationsvg{
+    width: 28px;
+    position: absolute;
+    top:  14px;
+    left: 21.2px;
+}
+.AS90data-Pbonus{
+    font-size: 2em;
+    top: 12px;
+    left: 90px;
+}
+.AS90data-percept{
+    font-size: 2em;
+    top: 12px;
+    left: 156px;
+}
+
+.AS90data-str{
+    font-size: 2em;
+    top: 90px;
+    left: 38px;
+}
+.AS90data-strmod{
+    top: 75px;
+    left: 40px;
+}
+
+.AS90data-dex{
+    font-size: 2em;
+    top: 152px;
+    left: 38px;
+}
+.AS90data-dexmod{
+    top: 138px;
+    left: 40px;
+}
+
+.AS90data-con{
+    font-size: 2em;
+    top: 217px;
+    left: 37px;
+}
+.AS90data-conmod{
+    top: 201.5px;
+    left: 40px;
+}
+
+.AS90data-int{
+    font-size: 2em;
+    top: 281px;
+    left: 39px;
+}
+.AS90data-intmod{
+    top: 266px;
+    left: 40px;
+}
+
+.AS90data-wis{
+    font-size: 2em;
+    top: 347px;
+    left: 36.5px;
+}
+.AS90data-wismod{
+    top: 330.5px;
+    left: 42.5px;
+}
+
+.AS90data-cha{
+    font-size: 2em;
+    top: 411px;
+    left: 37px;
+}
+.AS90data-chamod{
+    top: 394px;
+    left: 40px;
+}
+
+.AS90data-strsave{
+    font-size: .65em;
+    top: 79.5px;
+    left: 105px;
+}
+.AS90data-athletics{
+    font-size: .68em;
+    top: 87.4px;
+    left: 105px; 
+}
+
+.AS90data-dexsave{
+    font-size: .68em;
+    top: 142px;
+    left: 105px;
+}
+.AS90data-acrobatics{
+    font-size: .68em;
+    top: 150px;
+    left: 105px;
+}
+.AS90data-sofhand{
+    font-size: .68em;
+    top: 157.8px;
+    left: 105px;
+}
+.AS90data-stealth{
+    font-size: .68em;
+    top: 166px;
+    left: 105px;
+}
+.AS90data-userope{
+    font-size: .68em;
+    top: 174px;
+    left: 105px;
+}
+
+.AS90data-consave{
+    font-size: .68em;
+    top: 205.6px;
+    left: 105px;
+}
+.AS90data-brewing{
+    font-size: .68em;
+    top: 213.7px;
+    left: 105px;
+}
+
+.AS90data-intsave{
+    font-size: .68em;
+    top: 268px;
+    left: 105px;
+}
+.AS90data-arcana{
+    font-size: .68em;
+    top: 275.5px;
+    left: 105px;
+}
+.AS90data-lore{
+    font-size: .68em;
+    top: 283px;
+    left: 105px;
+}
+.AS90data-investigate{
+    font-size: .68em;
+    top: 290.3px;
+    left: 105px;
+}
+.AS90data-nature{
+    font-size: .68em;
+    top: 298px;
+    left: 105px;
+}
+.AS90data-religion{
+    font-size: .68em;
+    top: 305.4px;
+    left: 105px;
+}
+.AS90data-appraisal{
+    font-size: .68em;
+    top: 312.8px;
+    left: 105px;
+}
+
+.AS90data-wissave{
+    font-size: .68em;
+    top: 334.6px;
+    left: 105px;
+}
+.AS90data-animialhand{
+    font-size: .68em;
+    top: 342.6px;
+    left: 105px;
+}
+.AS90data-insight{
+    font-size: .68em;
+    top: 350.5px;
+    left: 105px;
+}
+.AS90data-medicine{
+    font-size: .68em;
+    top: 358.5px;
+    left: 105px;
+}
+.AS90data-perception{
+    font-size: .68em;
+    top: 366.6px;
+    left: 105px;
+}
+.AS90data-survival{
+    font-size: .68em;
+    top: 374.4px;
+    left: 105px;
+}
+
+.AS90data-chasave{
+    font-size: .68em;
+    top: 397.8px;
+    left: 105px;
+}
+.AS90data-deception{
+    font-size: .68em;
+    top: 406px;
+    left: 105px;
+}
+.AS90data-intimidation{
+    font-size: .68em;
+    top: 413.7px;
+    left: 105px;
+}
+.AS90data-performance{
+    font-size: .68em;
+    top: 421.8px;
+    left: 105px;
+}
+.AS90data-persuasion{
+    font-size: .68em;
+    top: 430px;
+    left: 105px;
+}
+
+.AS90data-profdot{
+    height: 5.4px;
+    width: 5.4px;
+    border: 0;
+    border-radius: 50%;
+    outline: none;
+    background-color: white;
+
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.AS90data-nonat{
+    visibility: hidden;
+}
+.AS90data-profat{
+    left: 85.5px;
+}
+.AS90data-expertat{
+    left: 94.5px;
+}
+
+.AS90data-dot-athletics{
+    top: 90.5px;
+}
+.AS90data-dot-acrobatics{
+    top: 153px;
+}
+.AS90data-dot-sofhand{
+    top: 160.9px;
+}
+.AS90data-dot-stealth{
+    top: 168.8px;
+}
+.AS90data-dot-userope{
+    top: 176.7px;
+}
+.AS90data-dot-brewing{
+    top: 216px;
+}
+.AS90data-dot-arcana{
+    top: 278px;
+}
+.AS90data-dot-lore{
+    top: 285.2px;
+}
+.AS90data-dot-investigate{
+    top: 293px;
+}
+.AS90data-dot-nature{
+    top: 300.2px;
+}
+.AS90data-dot-religion{
+    top: 308.2px;
+}
+.AS90data-dot-appraisal{
+    top: 315.2px;
+}
+.AS90data-dot-animialhand{
+    top: 344.5px;
+}
+.AS90data-dot-insight{
+    top: 352.3px;
+}
+.AS90data-dot-medicine{
+    top: 360.3px;
+}
+.AS90data-dot-perception{
+    top: 368.2px;
+}
+.AS90data-dot-survival{
+    top: 376.2px;
+}
+.AS90data-dot-deception{
+    top: 408px;
+}
+.AS90data-dot-intimidation{
+    top: 416px;
+}
+.AS90data-dot-performance{
+    top: 424px;
+}
+.AS90data-dot-persuasion{
+    top: 431.7px;
+}
+
+.AS90data-profsquare{
+    height: 5px;
+    width: 5px;
+    border: 0;
+    transform: rotate(-45deg);
+    border-radius: 1px;
+    outline: none;
+    background-color: white;
+
+    position: absolute;
+    padding: 0;
+    margin: 0;
+
+    left: 89.8px
+}
+.AS90data-profsquare-strsave{
+    top: 82.7px
+}
+.AS90data-profsquare-dexsave{
+    top: 145px
+}
+.AS90data-profsquare-consave{
+    top: 208.8px
+}
+.AS90data-profsquare-intsave{
+    top: 271px
+}
+.AS90data-profsquare-wissave{
+    top: 337px
+}
+.AS90data-profsquare-chasave{
+    top: 400.5px
+}
+
+

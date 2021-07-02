@@ -6,7 +6,7 @@ import "./data.css"
 class PSdata extends React.Component {
   render() {
     const {
-      armours, weapons, languages, tools
+      armours, weapons, languages, senses
       } = this.props;
 
     return (
@@ -15,7 +15,7 @@ class PSdata extends React.Component {
         <div className="profsdata-armor profsdata-text">{armours}</div>
         <div className="profsdata-weapons profsdata-text">{weapons}</div>
         <div className="profsdata-languages profsdata-text">{languages}</div>
-        <div className="profsdata-tools profsdata-text">{tools}</div>
+        <div className="profsdata-senses profsdata-text">{senses}</div>
     </div>
     );
   }

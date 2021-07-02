@@ -11,6 +11,8 @@ import ClassFeats from "./components/Classfeats/data";
 import Infosquare from "./components/infosquare/titles";
 import Settings from "./components/Settings";
 
+import AS90 from "./components/AbilitiesSkills90deg/data";
+
 import chardt from "./data/Nightblood.json";
 
 function yeqmxpc(width){
@@ -65,6 +67,8 @@ function App() {
           <Profs {...chardt.profs}/>
           <Infosquare {...chardt}/>
           <ClassFeats {...chardt.features.classfeats}/>
+
+          <AS90 {...chardt.abilitiesSkills}/>
         </div>
 
         <div className="mondice-container">
@@ -76,7 +80,6 @@ function App() {
             <div></div>
             <div></div>
         </div>
-
       </div>
     );
 }

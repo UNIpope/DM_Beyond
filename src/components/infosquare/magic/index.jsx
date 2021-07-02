@@ -20,7 +20,9 @@ class Magic extends React.Component {
         for (let i = 0; i < props.length; i++) {
             arr.push(
                 <div key={"infosquaredata-magic-key-"+i}>
-                    <div className="infosquaredata-magic-spellname">{props[i].name}</div>
+                    <div className="infosquaredata-magic-spellname"> 
+                        <a className="infosquaredata-magic-link" href={props[i].link}> {props[i].name}</a>
+                    </div>
                     <div className="infosquaredata-magic-spellrange">{props[i].RangeArea}</div>
                     <div className="infosquaredata-magic-spelldur">{props[i].dur}</div>
                     <div className="infosquaredata-magic-spelleffect">{props[i].effect}</div>
@@ -40,9 +42,13 @@ class Magic extends React.Component {
 
     retwarlockslotlessDiv = (props) => {
         let arr = []
-        arr.push(<p key={this.cyrb53("cantrips")} className="infosquaredata-title">Cantrips:</p>)
 
-        for (let i = 0; i < Object.keys(props).length; i++) {
+        arr.push(<p key={this.cyrb53("cantrips")} className="infosquaredata-title">Cantrips :</p>)
+        arr.push(this.retspellDiv(props["spell"+0]))
+
+        arr.push(<p key={this.cyrb53("Abiding")} className="infosquaredata-title">Abiding Spells :</p>)
+
+        for (let i = 1; i < Object.keys(props).length; i++) {
             arr.push(this.retspellDiv(props["spell"+i]))
         }
         return <div className="infosquaredata-text infosquaredata-all">{arr}</div>
@@ -59,25 +65,25 @@ class Magic extends React.Component {
 
         return (
             <div className="is-magic-container">     
-                <p className="infosquaredata-title" >Cantrips:</p>
+                <p className="infosquaredata-title" >Cantrips :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell0)}</div>
-                <p className="infosquaredata-title" >1st Level:</p>
+                <p className="infosquaredata-title" >1st Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell1)}</div>
-                <p className="infosquaredata-title" >2nd Level:</p>
+                <p className="infosquaredata-title" >2nd Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell2)}</div>
-                <p className="infosquaredata-title" >3rd Level:</p>
+                <p className="infosquaredata-title" >3rd Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell3)}</div>
-                <p className="infosquaredata-title" >4th Level:</p>
+                <p className="infosquaredata-title" >4th Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell4)}</div>
-                <p className="infosquaredata-title" >5th Level:</p>
+                <p className="infosquaredata-title" >5th Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell5)}</div>
-                <p className="infosquaredata-title" >6th Level:</p>
+                <p className="infosquaredata-title" >6th Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell6)}</div>
-                <p className="infosquaredata-title" >7th Level:</p>
+                <p className="infosquaredata-title" >7th Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell7)}</div>
-                <p className="infosquaredata-title" >8th Level:</p>
+                <p className="infosquaredata-title" >8th Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell8)}</div>
-                <p className="infosquaredata-title" >9th Level:</p>
+                <p className="infosquaredata-title" >9th Level :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retspellDiv(this.props.caster.spelllist.spell9)}</div>
             </div>
         )

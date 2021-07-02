@@ -35,16 +35,16 @@ class Actions extends React.Component {
     render() {
         return (
             <div >
-                <p className="infosquaredata-title" >Attack Actions:</p>
+                <p className="infosquaredata-title" >Attack Actions :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retAttackDiv(this.props.attack)}</div>
 
-                <p className="infosquaredata-title">Bonus Actions:</p>
+                <p className="infosquaredata-title">Bonus Actions :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retGenActionDiv(this.props.bonus)}</div>
 
-                <p className="infosquaredata-title">Reactions:</p>
+                <p className="infosquaredata-title">Reactions :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retGenActionDiv(this.props.reaction)}</div>
 
-                <p className="infosquaredata-title">Limited Actions:</p>
+                <p className="infosquaredata-title">Limited Actions :</p>
                 <div className="infosquaredata-text infosquaredata-all">{this.retGenActionDiv(this.props.limited)}</div>
             </div>
         );

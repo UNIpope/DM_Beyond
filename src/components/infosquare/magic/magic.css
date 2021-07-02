@@ -1,9 +1,10 @@
 .infosquaredata-magic-spellname{
     color: var(--font-color-title);
     padding-right: 10px;
+    margin-right:5px;
     display: inline-block;
 
-    width: 90px;
+    width: 91px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -27,11 +28,15 @@
     padding-right: 10px;
     display: inline-block;
 
-    width: 185px;
+    width: 179px;
     white-space: nowrap;
     overflow-x: scroll;
     scrollbar-width: none;
 }
 .infosquaredata-magic-spelleffect::-webkit-scrollbar {
     display: none;
+}
+.infosquaredata-magic-link{
+    color: inherit; 
+    text-decoration: inherit;
 }

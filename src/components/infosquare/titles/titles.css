@@ -72,7 +72,7 @@ input:checked + label {
     color: var(--font-color-subtitle);
     font-family:"Dunfont";
 
-    letter-spacing: 0;
+    letter-spacing: .03em;
     margin: 0;
     padding: 0;
 
@@ -94,9 +94,33 @@ input:checked + label {
     font-size: 1.2em;
 
     text-decoration: underline;
+    cursor: pointer;
+    display: block;
 }
 
 .infosquaredata-all{
     height: fit-content;
     margin-bottom: .5em;
+}
+
+.infosquaredata-title-textbox{
+    display: block;
+    background-color: transparent;
+    border: 1px solid var(--font-color-subtitle);
+    border-radius: 4px;
+    color: var(--font-color-subtitle);
+
+    height: 295px;
+    width: 375px;
+    margin-left: 1px;
+
+    overflow-y:scroll;
+    scrollbar-width: none;
+}
+.infosquaredata-title-textbox::-webkit-scrollbar {
+    display: none;
+}  
+
+.infosquaredata-title-padding{
+    height: 10px;
 }

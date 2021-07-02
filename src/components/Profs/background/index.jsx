@@ -10,9 +10,9 @@ class Profsbackground extends React.Component {
         <img src={Profsbackgroundsvg} alt="background" draggable="false"/>
         
         <h2 className="profsback-armor profsback-titles">Armor</h2>
-        <h2 className="profsback-weapons profsback-titles">Weapons</h2>
+        <h2 className="profsback-weapons profsback-titles">Weapons and Tools</h2>
         <h2 className="profsback-languages profsback-titles">Languages</h2>
-        <h2 className="profsback-tools profsback-titles">Tools</h2>
+        <h2 className="profsback-tools profsback-titles">Senses</h2>
 
         <h1 className="profsback-title profsback-titles">Proficiencies</h1>
       </div>

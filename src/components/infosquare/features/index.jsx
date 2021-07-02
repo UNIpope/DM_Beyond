@@ -42,19 +42,19 @@ class Features extends React.Component {
     render() {
         return (
             <div >
-                <p className="infosquaredata-title" >Class Featues:</p>
+                <p className="infosquaredata-title" >Class Featues :</p>
                 <div className="infosquaredata-text infosquaredata-all">
                     {this.retDiv(this.props.classfeats.abilities)}</div>
 
-                <p className="infosquaredata-title" >Feats:</p>
+                <p className="infosquaredata-title" >Feats :</p>
                 <div className="infosquaredata-text infosquaredata-all">
                     {this.retDiv(this.props.feats)}</div>
 
-                <p className="infosquaredata-title" >Racial Traits:</p>
+                <p className="infosquaredata-title" >Racial Traits :</p>
                 <div className="infosquaredata-text infosquaredata-all">
                     {this.retDiv(this.props.racialtraits)}</div>
 
-                <p className="infosquaredata-title" >Other Effects:</p>
+                <p className="infosquaredata-title" >Other Effects :</p>
                 <div className="infosquaredata-text infosquaredata-all">
                     {this.retDiv(this.props.other)}</div>
             </div>

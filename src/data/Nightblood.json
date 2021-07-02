@@ -1,38 +1,38 @@
 {
-    "information":{
-        "characterName": "NightBlood (James)",
-        "classLevel": "Warlock 6 / Rouge 2",
-        "totalLevels": 8,
+    "information": {
+        "characterName": "Jezrien (DayBreak)",
+        "classLevel": "Warlock 10",
+        "totalLevels": 10,
         "race": "Half- Dragon",
         "background": "Haunted One",
         "alignment": "Chaotic Good",
         "playerName": "Ya Boi",
         "xpPoints": "34,000"
     },
-    "playStats":{ 
-        "AC":"20", 
-        "initiative":"+4", 
-        "speed":"30", 
-        "hitdice":"8d8+2", 
-        "maxHP":"70", 
-        "tempHP":"0", 
-        "currentHP":"21"
+    "playStats": {
+        "AC": "21",
+        "initiative": "+4",
+        "speed": "30",
+        "hitdice": "10d8+2",
+        "maxHP": "84",
+        "tempHP": "0",
+        "currentHP": "84"
     },
-    "abilitiesSkills":{
-        "pbonus": "+3", 
-        "str": "15", 
-        "strmod": "+2", 
-        "dex": "19", 
+    "abilitiesSkills": {
+        "pbonus": "+3",
+        "str": "15",
+        "strmod": "+2",
+        "dex": "19",
         "dexmod": "+4",
-        "con": "14", 
+        "con": "14",
         "conmod": "+2",
-        "int": "11", 
+        "int": "11",
         "intmod": "+0",
-        "wis": "08", 
+        "wis": "08",
         "wismod": "-1",
-        "cha": "20", 
+        "cha": "20",
         "chamod": "+5",
-        "prof":{
+        "prof": {
             "strsave": 1,
             "athletics": 0,
             "dexsave": 1,
@@ -62,43 +62,80 @@
             "persuasion": 0
         }
     },
-    "money":{
-        "cp":"200",
-        "sp":"90",
-        "gp":"3340",
-        "pp":"3"
+    "money": {
+        "cp": "200",
+        "sp": "90",
+        "gp": "3340",
+        "pp": "3"
     },
-    "profs":{
-        "armours":"Light Armor, Medium Armor, Shields",
-        "weapons":"Martial Weapons, Simple Weapons",
-        "languages":"Abyssal, Common, Draconic, Elvish, Thieves’ Cant",
-        "tools":"Thieves' Tools"
+    "profs": {
+        "armours": "Light Armor, Medium Armor, Shields",
+        "weapons": "Martial Weapons, Simple Weapons  |  Thieves' Tools",
+        "languages": "Abyssal, Common, Draconic, Elvish, Thieves’ Cant",
+        "senses": "120ft Sight in magical and non-magical Darkness"
     },
-    "actions":{
-        "attack":[
-            {"name":"Nightblood","hitdc":"+8","effect":"1d8+5","desc":"Piercing"},
-            {"name":"Eldritch Blast","hitdc":"+9","effect":"1d10+5","desc":"120Ft Force"},
-            {"name":"Breath Weapon","hitdc":"13","effect":"3d6","desc":"15Ft Fire Cone.  Once a day"},
-            {"name":"Sneak Attack","hitdc":"+0","effect":"+1d6","desc":"On advantage"}
+    "actions": {
+        "attack": [
+            {
+                "name": "Eldritch Blast",
+                "hitdc": "+12",
+                "effect": "3d10+5",
+                "desc": "Mellee Cold"
+            },
+            {
+                "name": "Flux Curse",
+                "hitdc": "---",
+                "effect": "2d6",
+                "desc": "Bonus act / rest / Proc on Hit"
+            }
         ],
-        "bonus":[
-            {"name":"Cunning Action","desc":"Dash, Disengage, or Hide action."},
-            {"name":"Misty Step","desc":"30ft teleport"}
+        "bonus": [
+            {
+                "name": "Cunning Action",
+                "desc": "Dash, Disengage, or Hide action."
+            },
+            {
+                "name": "Flux Curse",
+                "desc": "2d6 Cold on hit. Once per rest"
+            },
+            {
+                "name": "Flux Curse TP",
+                "desc": "Swap position with curse target."
+            },
+            {
+                "name": "Dragonic Scale Mail",
+                "desc": "Don and doff armor."
+            }
         ],
-        "reaction":[
-            {"name":"Opportunity Attack", "desc":"If a creature moves out of your reach make a melee attack."},
-            {"name":"Hellish Rebuke", "desc":"Dash, Disengage, or Hide action."},
-            {"name":"Shield", "desc":"30ft teleport"}
+        "reaction": [
+            {
+                "name": "Opportunity Attack",
+                "desc": "If a creature moves out of your reach make a melee attack."
+            },
+            {
+                "name": "Shield",
+                "desc": "+5 bonus to AC."
+            }
         ],
-        "limited":[
-            {"name":"Sneak Attack", "desc":"+1d6 If you have advantage on the attack roll."},
-            {"name":"Polymorph Crow", "desc":"3 times a day polymorph a crow."}
+        "limited": [
+            {
+                "name": "Movement TP",
+                "desc": "Movement speed to teleport instead of walking."
+            },
+            {
+                "name": "Dragonic Aspect",
+                "desc": "1/day, +2d8, 40ft fly speed, Size large"
+            },
+            {
+                "name": "Dragonic Scale Mail",
+                "desc": "1/day, Detect chromatic dragons 30 miles."
+            }
         ]
     },
-    "powers":{
+    "powers": {
         "caster": {
             "are": true,
-            "type":"warlock:slotless",
+            "type": "warlock:slotless",
             "spell0": {
                 "value": 3,
                 "max": 3
@@ -143,55 +180,133 @@
                 "value": 0,
                 "max": 2
             },
-            "spelllist":{
-                "spell0":[
-                    {"name":"Eldritch Blast", "RangeArea":"120ft", "components":"V,S", "cost":false, "ritual":false, "castingTime":"1 Action",
-                        "effect":"1d10+5 Total Beams: 2", "dur":"Instant", "desc":"Ranged spell attack in the shape of crows",
-                        "5etools":"https://5e.tools/spells.html#eldritch%20blast_phb"},
-                    {"name":"Mage Hand", "RangeArea":"30ft", "components":"V,S", "cost":false, "ritual":false, "castingTime":"1 Action",
-                        "effect":"lift/move up to 4.5 KG", "dur":"1 min", "desc":"Ranged spell attack in the shape of crows",
-                        "5etools":"https://5e.tools/spells.html#mage%20hand_phb"},
-                    {"name":"Prestidigitation", "RangeArea":"10ft", "components":"V,S", "cost":false, "ritual":false, "castingTime":"1 Action",
-                        "effect":"Sensory effects / small objects", "dur":"1 Hour", "desc":"Minor magical trick",
-                        "5etools":"https://5e.tools/spells.html#prestidigitation_phb"},
-                    {"name":"Thaumaturgy", "RangeArea":"30ft", "components":"V", "cost":false, "ritual":false, "castingTime":"1 Action",
-                        "effect":"lift/move up to 4.5 KG", "dur":"1 min", "desc":"Manifest a minor wonder",
-                        "5etools":"https://5e.tools/spells.html#prestidigitation_phb"}
+            "spelllist": {
+                "spell0": [
+                    {
+                        "name": "Mage Hand",
+                        "RangeArea": "30ft",
+                        "components": "V,S",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "lift/move up to 4.5 KG",
+                        "dur": "1 min",
+                        "desc": "Ranged spell attack in the shape of crows",
+                        "link": "https://5e.tools/spells.html#mage%20hand_phb"
+                    },
+                    {
+                        "name": "Prestidigitation",
+                        "RangeArea": "10ft",
+                        "components": "V,S",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "Sensory effects / small objects",
+                        "dur": "1 Hour",
+                        "desc": "Minor magical trick",
+                        "link": "https://5e.tools/spells.html#prestidigitation_phb"
+                    },
+                    {
+                        "name": "Minor Illusion",
+                        "RangeArea": "30ft",
+                        "components": "S,M(a bit of fleece)",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "Yoru steppies",
+                        "dur": "1 minute",
+                        "desc": "You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.\n\nIf you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.\n\nIf you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.\n\nIf a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.",
+                        "link": "https://5e.tools/spells.html#minor%20illusion_phb"
+                    },
+                    {
+                        "name": "Thaumaturgy",
+                        "RangeArea": "30ft",
+                        "components": "V",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "lift/move up to 4.5 KG",
+                        "dur": "1 min",
+                        "desc": "Manifest a minor wonder",
+                        "link": "https://5e.tools/spells.html#thaumaturgy_phb"
+                    },
+                    {
+                        "name": "! Placebo",
+                        "RangeArea": "Touch",
+                        "components": "V,S",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "Decption Vs Insight",
+                        "dur": "1 min",
+                        "desc": "You touch a willing creature, and make a Charisma (Deception) check, conlested by a Wisdom (Insight) check of the creature you are touching, on a success, the target believes it has regained 5 hitpoints, and that it has been cured of any diseases inflicting it.",
+                        "link": "https://www.reddit.com/r/UnearthedArcana/comments/eqgrcv/a_joke_cantrip_for_those_who_complain_there_are/"
+                    },
+                    {
+                        "name": "Disguise Self",
+                        "RangeArea": "Self",
+                        "components": "V,S",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "Investigation Vs Spell DC",
+                        "dur": "1 hour",
+                        "desc": "You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.\nThe changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.\nTo discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.",
+                        "link": "https://5e.tools/spells.html#disguise%20self_phb"
+                    },
+                    {
+                        "name": "Speak with Animals",
+                        "RangeArea": "Self",
+                        "components": "V,S",
+                        "cost": false,
+                        "ritual": false,
+                        "castingTime": "1 Action",
+                        "effect": "Comprehend and Verbally communicate with beasts",
+                        "dur": "10 min",
+                        "desc": "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.",
+                        "link": "https://5e.tools/spells.html#speak%20with%20animals_phb"
+                    }
                 ],
-                "spell1":[
-                    {"name":"Disguise Self", "RangeArea":"Self", "components":"V,S", "cost":false, "ritual":true, "castingTime":"1 Action",
-                        "effect":"1 foot shorter or taller and can appear thin, fat, or in between.", "dur":"1 Hour", "desc":"You make yourself look different",
-                        "5etools":"https://5e.tools/spells.html#disguise%20self_phb"},
-                    {"name":"Speak with Animals", "RangeArea":"Self", "components":"V,S", "cost":false, "ritual":false, "castingTime":"1 Action",
-                        "effect":"Comprehend and verbally communicate with beasts.", "dur":"10 min", "desc":"Comprehend and verbally communicate with beasts.",
-                        "5etools":"https://5e.tools/spells.html#speak%20with%20animals_phb"},
-                    {"name":"Hellish Rebuke", "RangeArea":"60ft", "components":"V,S", "cost":true, "ritual":false, "castingTime":"1 Reaction",
-                        "effect":"4d10 Fire Damage", "dur":"Instant", "desc":"It takes 2d10 + (1d10 per level) fire damage on a failed save, or half as much damage on a successful one.",
-                        "5etools":"https://5e.tools/spells.html#hellish%20rebuke_phb"},
-                    {"name":"Shield", "RangeArea":"Self", "components":"V,S", "cost":true, "ritual":false, "castingTime":"1 Reaction",
-                        "effect":"+5 bonus to AC", "dur":"1 round", "desc":"An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
-                        "5etools":"https://5e.tools/spells.html#shield_phb"}
+                "spell1": [
+                    {
+                        "name": "Shield",
+                        "RangeArea": "Self",
+                        "components": "V,S",
+                        "cost": true,
+                        "ritual": false,
+                        "castingTime": "1 Reaction",
+                        "effect": "+5 bonus to AC on reaction.",
+                        "dur": "1 round",
+                        "desc": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
+                        "link": "https://5e.tools/spells.html#shield_phb"
+                    },
+                    {
+                        "name": "Distort Value",
+                        "RangeArea": "Touch",
+                        "components": "V",
+                        "cost": true,
+                        "ritual": false,
+                        "castingTime": "1 Reaction",
+                        "effect": "x2 or 1/2 value : Investigation Vs S.DC",
+                        "dur": "Instant",
+                        "desc": "You cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.",
+                        "link": "https://5e.tools/spells.html#hellish%20rebuke_phb"
+                    },
+                    {
+                        "name": "Comprehend Lang",
+                        "RangeArea": "60 feet",
+                        "components": "V,S",
+                        "cost": false,
+                        "ritual": true,
+                        "castingTime": "1 Action",
+                        "effect": "Literal meaning of any language.",
+                        "dur": "1 round",
+                        "desc": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\nThis spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.",
+                        "link": "https://5e.tools/spells.html#magnify%20gravity_egw"
+                    }
                 ],
-                "spell2":[
-                    {"name":"Hold Person", "RangeArea":"60ft", "components":"V,S,M (A small, straight piece of iron.)", "cost":true, "ritual":false, "castingTime":"1 Action",
-                        "effect":"WIS 17 or be paralyzed ", "dur":"1 min", "desc":"Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target. At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.",
-                        "5etools":"https://5e.tools/spells.html#hold%20person_phb"},
-                    {"name":"Immovable Object", "RangeArea":"Touch", "components":"V,S,M (gold dust worth at least 25 gp, which the spell consumes)", "cost":true, "ritual":false, "castingTime":"1 Action",
-                        "effect":"< 10 pounds is fixed in space.", "dur":"1 hour", "desc":"You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet. At Higher Levels. If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.",
-                        "5etools":"https://5e.tools/spells.html#immovable%20object_egw"},
-                    {"name":"Mirror Image", "RangeArea":"Self", "components":"V,S", "cost":true, "ritual":false, "castingTime":"1 Action",
-                        "effect":"d20 6,8,11 per amount of duplicates(AC 10+dex)", "dur":"1 hour", "desc":"Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real. You can use your action to dismiss the illusory duplicates. Each time a creature targets you with an attack during the spell's duration, roll a d20 to determine whether the attack instead targets one of your duplicates. If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher. A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed. A creature is unaffected by this spell if it can't see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.",
-                        "5etools":"https://5e.tools/spells.html#mirror%20image_phb"},
-                    {"name":"Suggestion", "RangeArea":"30 ft", "components":"V, M (A snake's tongue and either a bit of honeycomb or a drop of sweet oil.)", "cost":true, "ritual":false, "castingTime":"1 Action",
-                        "effect":"WIS 17 Suggest something 2 sentences in lenght", "dur":"8 Hours", "desc":"You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell. The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do. You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed. If you or any of your companions damage the target, the spell ends.",
-                        "5etools":"https://5e.tools/spells.html#suggestion_phb"}
-                        
-                ],
-                "spell3":[
-                    {"name":"Pulse Wave", "RangeArea":"30ft cone", "components":"V,S", "cost":true, "ritual":true, "castingTime":"1 Action",
-                        "effect":"CON 17 6d6 or half on a fail", "dur":"Instant", "desc":"You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell. In addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet. At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the distance pulled or pushed increases by 5 feet for each slot level above 3rd.",
-                        "5etools":"https://5e.tools/spells.html#pulse%20wave_egw"}
-                ],
+                "spell2": [],
+                "spell3": [],
                 "spell4": [],
                 "spell5": [],
                 "spell6": [],
@@ -200,31 +315,101 @@
                 "spell9": []
             }
         },
-        "ki":{
+        "ki": {
             "are": false
         },
-        "psy":{
+        "psy": {
             "are": false
         }
     },
-    "features":{
-        "classfeats":{
-            "subname":"FluxBlade",
-            "5important":["Flux Jump","Gate crawler"],
-            "abilities":[
-                {"name":"Flux Jump","lvl":"1", "shorttxt":"1,6,10 lvl : 1,2,3 uses \nResets on a short rest.","desc":"At 1st level, You can cast the misty step spell once using this trait, this increases this increases to two at 6th and three times at 10th. You regain the ability to do so when you finish a short or long rest. "},
-                {"name":"Gate crawler","lvl":"6", "shorttxt":"Travel past teleportation traces inside of 120ft and no older than a day. \n d20+prof vs 12 + spell lvl - count = prof mod. \n Others can join you equel to the number of flux jumps left.","desc":"At 6th level, you gain the ability to detect the traces left by teleportation. As an action, you detect the distance and direction to any traces within 120 feet of you. However, if magic obscures any details of a portal or if the trace is older than a day, this feature doesn’t reveal them. If a trace is found, using the flux warriors weapon they can make a check plus proficiency mod to reopen or utilize the the trace. The DC to do this is based on the the level of the spell used.(12 + spell level) this can be done as many times equal to prof mod. Others can come with you through the trace equal to the number of flux jump charges."},
-                {"name":"Blink Strike","lvl":"10", "shorttxt":"On attack, 10 feet tp.\n If 2 enemys are hit then hit a 3rd","desc":"At 10th level, you gain the ability to pass between the planes in the blink of an eye.\nWhen you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.\nIf you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."},
-                {"name":"Nope Step","lvl":"14", "shorttxt":"Reaction to being hit: tp 60ft and invisible.\nInvisiblity lasts till end of next turn or you attack. \nRecharged on short rest.","desc":"At 14th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again."}
+    "features": {
+        "classfeats": {
+            "subname": "FluxBlade",
+            "5important": [
+                "Flux Jump",
+                "Gate crawler"
+            ],
+            "abilities": [
+                {
+                    "name": "The FluxBlade",
+                    "lvl": "1",
+                    "shorttxt": "By using the full amount of movement speed, you teleport there, provoking no attacks of opportunity.",
+                    "desc": "Your Eldritch Blast and Warlock’s Curse deal cold damage, this attack must be completed with a melee strike and has reach. By using the full amount of movement speed, you teleport there, provoking no attacks of opportunity.\nYou gain proficiency with medium armor, shields, and martial weapons."
+                },
+                {
+                    "name": "The Exchange",
+                    "lvl": "1",
+                    "shorttxt": "Bonus Action: Exchange positions with the cursed creature. Reaction: 10 x half your warlock level TP if creature aproches you, spot's you when hidden or targeted with a spell.",
+                    "desc": "You can magically exchange positions with the cursed creature as a bonus action.\nIn addition, as a reaction to one of the following, you can teleport a number of feet equal to 10 x half your warlock level (rounded down, minimum 10ft):\n- A creature ends its turn closer to you than at the start of its turn\n- A creature spots you while you were hidden\n- A creature targets you with an attack or spell\n\nOnce you use this feature, you cannot use it again until you finish a short or long rest, or you roll for initiative."
+                },
+                {
+                    "name": "Gate crawler",
+                    "lvl": "6",
+                    "shorttxt": "Travel past teleportation traces inside of 120ft and no older than a day. \n d20+prof vs 12 + spell lvl - count = prof mod. \n Others can join you equel to the number of flux jumps left.",
+                    "desc": "At 6th level, you gain the ability to detect the traces left by teleportation. As an action, you detect the distance and direction to any traces within 120 feet of you. However, if magic obscures any details of a portal or if the trace is older than a day, this feature doesn’t reveal them. If a trace is found, using the flux warriors weapon they can make a check plus proficiency mod to reopen or utilize the the trace. The DC to do this is based on the the level of the spell used.(12 + spell level) this can be done as many times equal to prof mod. Others can come with you through the trace equal to the number of flux jump charges."
+                },
+                {
+                    "name": "Blink Strike",
+                    "lvl": "10",
+                    "shorttxt": "On attack, 10 feet tp.\n If 2 enemys are hit then hit a 3rd",
+                    "desc": "At 10th level, you gain the ability to pass between the planes in the blink of an eye.\nWhen you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.\nIf you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+                },
+                {
+                    "name": "Nope Step",
+                    "lvl": "14",
+                    "shorttxt": "Reaction to being hit: tp 60ft and invisible.\nInvisiblity lasts till end of next turn or you attack. \nRecharged on short rest.",
+                    "desc": "At 14th level, you have the ability to slip away from your foes. Immediately after you are hit by an attack, you can use your reaction to turn invisible and teleport up to 60 feet to a spot you can see. You remain invisible until the end of your next turn or until you attack, deal damage, or force a creature to make a saving throw. Once you use this feature, you must finish a short or long rest before you can use it again."
+                }
             ]
         },
-        "feats":[
-            {"name":"War Caster", "shorttxt":"Adv.. on Constitution saving throws.\nSomatic components with shield/weapons.\nReaction to cast a spell.","desc":"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:\n - You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.\n - You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.\n - When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."}
+        "feats": [
+            {
+                "name": "Prodigy",
+                "shorttxt": "Adv.. on Constitution saving throws.\nSomatic components with shield/weapons.\nReaction to cast a spell.",
+                "desc": "You have a knack for learning new things. You gain the following benefits:\n- You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.\n- Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+            }
         ],
-        "racialtraits":[
-            {"name":"Breath Weapon","shorttxt":"","desc":"When taking the Attack action breath weapon can replace one of the attacks. Damage and save connected to Draconic Ancestry. DC 8+Con+Prof bonus. 2d8 damage on a failed save, and half as much on a successful one. Increases to 3d8 at lv 6, 4d8 at lv 11 and 5d8 at lv 16. Can use a number of times equal to Prof bonus."},
-            {"name":"Fascinated by Mortals","shorttxt":"","desc":"Proficiency in History."}
+        "racialtraits": [
+            {
+                "name": "Breath Weapon",
+                "shorttxt": "",
+                "desc": "When taking the Attack action breath weapon can replace one of the attacks. Damage and save connected to Draconic Ancestry. DC 8+Con+Prof bonus. 2d8 damage on a failed save, and half as much on a successful one. Increases to 3d8 at lv 6, 4d8 at lv 11 and 5d8 at lv 16. Can use a number of times equal to Prof bonus."
+            },
+            {
+                "name": "Fascinated by Mortals",
+                "shorttxt": "",
+                "desc": "Proficiency in History."
+            }
         ],
-        "other":[]
+        "other": [
+            {
+                "name": "Eldritch Mind",
+                "desc": "You have advantage on Constitution saving throws that you make to maintain your concentration."
+            },
+            {
+                "name": "Agonizing Blast",
+                "desc": "When you cast eldritch blast, add +5 to the damage it deals on a hit."
+            },
+            {
+                "name": "Repelling Blast",
+                "desc": "When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line."
+            },
+            {
+                "name": "Mask of Many Faces",
+                "desc": "You can cast disguise self at will, without expending a spell slot."
+            },
+            {
+                "name": "Beast Speech",
+                "desc": "You can cast speak with animals at will, without expending a spell slot."
+            },
+            {
+                "name": "Armor of Shadows",
+                "desc": "You gain a bonus to your AC equal to half your proficiency modifier in this class(rounded down) while you are holding your spellcasting focus."
+            },
+            {
+                "name": "Warlock’s Ire",
+                "desc": "All attack rolls against a creature affected by your Warlock’s Curse gain a 1d4 bonus."
+            }
+        ]
     }
 }

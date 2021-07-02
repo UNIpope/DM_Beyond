@@ -6,6 +6,7 @@ import "./titles.css"
 import Magic from "../magic";
 import Actions from "../actions";
 import Features from "../features";
+import Inventory from "../inventory";
 
 class infosquaretitles extends React.Component {
     constructor(props){
@@ -33,6 +34,8 @@ class infosquaretitles extends React.Component {
     notes= () => {
         this.setState({ actionsdata: false, magicdata: false, featuresdata: false, inventdata: false, notesdata: true });
     }
+
+
 
     render() {
         const {
@@ -72,17 +75,19 @@ class infosquaretitles extends React.Component {
             </div>
 
             <div style={{display: this.state.inventdata ? 'block' : 'none' }} className="infosquaredata-container"> 
-                <p className="infosquaredata-title" >Equiped:</p>
-                <p className="infosquaredata-title" >Attened:</p>
-                <p className="infosquaredata-title" >Loose Gear:</p>
+                <Inventory {... inventory}/>
             </div>
 
 
             <div style={{display: this.state.notesdata ? 'block' : 'none' }} className="infosquaredata-container"> 
                 <p className="infosquaredata-title" >About Self:</p>
+                <input type="text"></input>
                 <p className="infosquaredata-title" >Friends:</p>
+                <input type="text"></input>
                 <p className="infosquaredata-title" >Foes:</p>
+                <input type="text"></input>
                 <p className="infosquaredata-title" >World information:</p>
+                <input type="text"></input>
             </div>
 
         </div>
