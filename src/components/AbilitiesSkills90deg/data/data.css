@@ -16,18 +16,18 @@
 .AS90data-insperationsvg{
     width: 28px;
     position: absolute;
-    top:  14px;
-    left: 21.2px;
+    top:  15.5px;
+    left: 28px;
 }
 .AS90data-Pbonus{
     font-size: 2em;
-    top: 12px;
-    left: 90px;
+    top: 77px;
+    left: 31px;
 }
 .AS90data-percept{
     font-size: 2em;
-    top: 12px;
-    left: 156px;
+    top: 140px;
+    left: 31px;
 }
 
 .AS90data-str{
@@ -42,22 +42,22 @@
 
 .AS90data-dex{
     font-size: 2em;
-    top: 152px;
-    left: 38px;
+    top: 50px;
+    left: 279px;
 }
 .AS90data-dexmod{
-    top: 138px;
-    left: 40px;
+    top: 36px;
+    left: 281px;
 }
 
 .AS90data-con{
     font-size: 2em;
-    top: 217px;
-    left: 37px;
+    top: 50px;
+    left: 449px;
 }
 .AS90data-conmod{
-    top: 201.5px;
-    left: 40px;
+    top: 36px;
+    left: 452px;
 }
 
 .AS90data-int{
@@ -82,12 +82,12 @@
 
 .AS90data-cha{
     font-size: 2em;
-    top: 411px;
-    left: 37px;
+    top: 126px;
+    left: 449px;
 }
 .AS90data-chamod{
-    top: 394px;
-    left: 40px;
+    top: 112.5px;
+    left: 452px;
 }
 
 .AS90data-strsave{
@@ -207,28 +207,28 @@
 
 .AS90data-chasave{
     font-size: .68em;
-    top: 397.8px;
-    left: 105px;
+    top: 116.3px;
+    left: 515px;
 }
 .AS90data-deception{
     font-size: .68em;
-    top: 406px;
-    left: 105px;
+    top: 125.2px;
+    left: 515px;
 }
 .AS90data-intimidation{
     font-size: .68em;
-    top: 413.7px;
-    left: 105px;
+    top: 132.2px;
+    left: 515px;
 }
 .AS90data-performance{
     font-size: .68em;
-    top: 421.8px;
-    left: 105px;
+    top: 140.3px;
+    left: 515px;
 }
 .AS90data-persuasion{
     font-size: .68em;
-    top: 430px;
-    left: 105px;
+    top: 148.2px;
+    left: 515px;
 }
 
 .AS90data-profdot{

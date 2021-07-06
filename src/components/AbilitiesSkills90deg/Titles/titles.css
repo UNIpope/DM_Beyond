@@ -1,9 +1,9 @@
-.AStitle-container {
+.AS90title-container {
     padding: 0;
     margin: 0;
     position: relative
 }  
-.AStitle-titles{
+.AS90title-titles{
     color: white;
     font-family:"Dunfont";
     letter-spacing: 0;
@@ -13,189 +13,190 @@
     position:absolute;
 }
 
-.AStitle-inspiration{
+.AS90title-inspiration{
     font-size: .9em;
     top: 50px;
-    left: 8.2px;
+    left: 18.2px;
 }
-.AStitle-pbonus{
+.AS90title-pbonus{
     font-size: .9em;
-    top: 50px;
-    left: 75.5px;
+    top: 113px;
+    left: 17px;
 }
-.AStitle-perception{
+.AS90title-perception{
     font-size: .9em;
-    top: 50px;
-    left: 143px;
+    top: 175px;
+    left: 18px;
 }
 
-.AStitle-str{
+.AS90title-str{
     font-size: .75em;
     top: 115.5px;
     left: 30px;
 }
-.AStitle-strsave{
+.AS90title-strsave{
     font-size: .7em;
     top: 79.3px;
     left: 118px;
 }
-.AStitle-athletics{
+.AS90title-athletics{
     font-size: .7em;
     top: 87.3px;
     left: 118px;
 }
 
-.AStitle-dex{
+.AS90title-dex{
     font-size: .75em;
-    top: 178px;
-    left: 28px;
+    top: 76px;
+    left: 272px;
 }
-.AStitle-dexsave{
+.AS90title-dexsave{
     font-size: .7em;
     top: 142.2px;
     left: 118px;
 }
-.AStitle-acrobatics{
+.AS90title-acrobatics{
     font-size: .7em;
     top: 150.2px;
     left: 118px;
 }
-.AStitle-sofhand{
+.AS90title-sofhand{
     font-size: .7em;
     top: 158.2px;
     left: 118px;
 }
-.AStitle-stealth{
+.AS90title-stealth{
     font-size: .7em;
     top: 166.2px;
     left: 118px;
 }
-.AStitle-rope{
+.AS90title-rope{
     font-size: .7em;
     top: 174.2px;
     left: 118px;
 }
 
-.AStitle-con{
+.AS90title-con{
     font-size: .75em;
-    top: 243px;
-    left: 21px;
+    top: 76px;
+    left: 437px;
 }
-.AStitle-consave{
+.AS90title-consave{
     font-size: .7em;
     top: 205.8px;
     left: 118px;
 }
-.AStitle-brewing{
+.AS90title-brewing{
     font-size: .7em;
     top: 214px;
     left: 118px;
 }
 
-.AStitle-int{
+.AS90title-int{
     font-size: .75em;
     top: 306px;
     left: 24px;
 }
-.AStitle-intsave{
+.AS90title-intsave{
     font-size: .7em;
     top: 269px;
     left: 118px;
 }
-.AStitle-arcana{
+.AS90title-arcana{
     font-size: .7em;
     top: 276px;
     left: 118px;
 }
-.AStitle-history{
+.AS90title-history{
     font-size: .7em;
     top: 283.5px;
     left: 118px;
 }
-.AStitle-invest{
+.AS90title-invest{
     font-size: .7em;
     top: 291px;
     left: 118px;
 }
-.AStitle-nature{
+.AS90title-nature{
     font-size: .7em;
     top: 299px;
     left: 118px;
 }
-.AStitle-religion{
+.AS90title-religion{
     font-size: .7em;
     top: 306.5px;
     left: 118px;
 }
-.AStitle-appraisal{
+.AS90title-appraisal{
     font-size: .7em;
     top: 314px;
     left: 118px;
 }
 
-.AStitle-wis{
+.AS90title-wis{
     font-size: .75em;
     top: 370.3px;
     left: 31px;
 }
-.AStitle-wissave{
+.AS90title-wissave{
     font-size: .7em;
     top: 335.5px;
     left: 118px;
 }
-.AStitle-ahand{
+.AS90title-ahand{
     font-size: .7em;
     top: 343.2px;
     left: 118px;
 }
-.AStitle-insight{
+.AS90title-insight{
     font-size: .7em;
     top: 351.2px;
     left: 118px;
 }
-.AStitle-medicine{
+.AS90title-medicine{
     font-size: .7em;
     top: 359.4px;
     left: 118px;
 }
-.AStitle-percept{
+.AS90title-percept{
     font-size: .7em;
     top: 367.2px;
     left: 118px;
 }
-.AStitle-survival{
+.AS90title-survival{
     font-size: .7em;
     top: 375.1px;
     left: 118px;
 }
 
-.AStitle-cha{
+.AS90title-cha{
     font-size: .75em;
-    top: 435.3px;
-    left: 28px;
+    top: 152.3px;
+    left: 441px;
 }
-.AStitle-chasave{
+.AS90title-chasave{
     font-size: .7em;
-    top: 399.2px;
-    left: 118px;
+    top: 117px;
+    left: 530px;
+    white-space: nowrap;
 }
-.AStitle-deception{
+.AS90title-deception{
     font-size: .7em;
-    top: 407px;
-    left: 118px;
+    top: 125.3px;
+    left: 530px;
 }
-.AStitle-intimidate{
+.AS90title-intimidate{
     font-size: .7em;
-    top: 415px;
-    left: 118px;
+    top: 133.3px;
+    left: 530px;;
 }
-.AStitle-performance{
+.AS90title-performance{
     font-size: .7em;
-    top: 423px;
-    left: 118px;
+    top: 142px;
+    left: 530px;
 }
-.AStitle-persuasion{
+.AS90title-persuasion{
     font-size: .7em;
-    top: 431px;
-    left: 118px;
+    top: 149px;
+    left: 530px;
 }

@@ -160,6 +160,9 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+    :root{
+        zoom: 1.1;
+    }
     .app-container{    
         left: auto;
         transform: none;

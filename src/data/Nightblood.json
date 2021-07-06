@@ -115,6 +115,10 @@
             {
                 "name": "Shield",
                 "desc": "+5 bonus to AC."
+            },
+            {
+                "name": "TP : 10 x 1/2 lvl",
+                "desc": "If creature Closes in, Spotted and Spell Att. Rest"
             }
         ],
         "limited": [
