@@ -33,16 +33,16 @@
         "cha": "20",
         "chamod": "+5",
         "prof": {
-            "strsave": 1,
+            "strsave": 0,
             "athletics": 0,
-            "dexsave": 1,
+            "dexsave": 0,
             "acrobatics": 0,
-            "sofhand": 1,
-            "stealth": 2,
+            "sofhand": 2,
+            "stealth": 1,
             "userope": 0,
-            "consave": 1,
+            "consave": 0,
             "brewing": 0,
-            "intsave": 1,
+            "intsave": 0,
             "arcana": 0,
             "lore": 1,
             "investigate": 1,
@@ -54,12 +54,12 @@
             "insight": 0,
             "medicine": 0,
             "perception": 0,
-            "survival": 1,
+            "survival": 0,
             "chasave": 1,
-            "deception": 2,
-            "intimidation": 1,
+            "deception": 1,
+            "intimidation": 0,
             "performance": 0,
-            "persuasion": 0
+            "persuasion": 1
         }
     },
     "money": {
@@ -72,7 +72,7 @@
         "armours": "Light Armor, Medium Armor, Shields",
         "weapons": "Martial Weapons, Simple Weapons  |  Thieves' Tools",
         "languages": "Abyssal, Common, Draconic, Elvish, Thieves’ Cant",
-        "senses": "120ft Sight in magical and non-magical Darkness"
+        "senses": "220ft Sight in magical and non-magical Darkness"
     },
     "actions": {
         "attack": [

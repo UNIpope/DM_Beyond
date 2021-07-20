@@ -24,13 +24,13 @@ function profskillsave(level, mod, pbonus) {
 }
 
 // position "o" based on level
-function positiondot(proflvl, what) {
+function positiondot(proflvl, what, row) {
   if(proflvl === 2){
-    return "AS90data-profdot " + what + " AS90data-expertat"
+    return "AS90data-profdot " + what + " AS90data-expertat" + row
   }
 
   if(proflvl === 1){
-    return "AS90data-profdot " + what + " AS90data-profat"
+    return "AS90data-profdot " + what + " AS90data-profat" + row
   }
 
   return "AS90data-nonat"
@@ -128,32 +128,32 @@ class AS90data extends React.Component {
         <p className="AS90data-performance AS90data-font">{profskillsave(prof.performance, chamod, pbonus)}</p>
         <p className="AS90data-persuasion AS90data-font">{profskillsave(prof.persuasion, chamod, pbonus)}</p>
 
-        <span className={positiondot(prof.athletics,"AS90data-dot-athletics")}></span>
+        <span className={positiondot(prof.athletics,"AS90data-dot-athletics", "-r1")}></span>
 
-        <span className={positiondot(prof.acrobatics,"AS90data-dot-acrobatics")}></span>
-        <span className={positiondot(prof.sofhand,"AS90data-dot-sofhand")}></span>
-        <span className={positiondot(prof.stealth,"AS90data-dot-stealth")}></span>
-        <span className={positiondot(prof.userope,"AS90data-dot-userope")}></span>
+        <span className={positiondot(prof.acrobatics,"AS90data-dot-acrobatics", "-r2")}></span>
+        <span className={positiondot(prof.sofhand,"AS90data-dot-sofhand", "-r2")}></span>
+        <span className={positiondot(prof.stealth,"AS90data-dot-stealth", "-r2")}></span>
+        <span className={positiondot(prof.userope,"AS90data-dot-userope", "-r2")}></span>
 
-        <span className={positiondot(prof.brewing,"AS90data-dot-brewing")}></span>
+        <span className={positiondot(prof.brewing,"AS90data-dot-brewing", "-r3")}></span>
 
-        <span className={positiondot(prof.arcana,"AS90data-dot-arcana")}></span>
-        <span className={positiondot(prof.lore,"AS90data-dot-lore")}></span>
-        <span className={positiondot(prof.investigate,"AS90data-dot-investigate")}></span>
-        <span className={positiondot(prof.nature,"AS90data-dot-nature")}></span>
-        <span className={positiondot(prof.religion,"AS90data-dot-religion")}></span>
-        <span className={positiondot(prof.appraisal,"AS90data-dot-appraisal")}></span>
+        <span className={positiondot(prof.arcana,"AS90data-dot-arcana", "-r1")}></span>
+        <span className={positiondot(prof.lore,"AS90data-dot-lore", "-r1")}></span>
+        <span className={positiondot(prof.investigate,"AS90data-dot-investigate", "-r1")}></span>
+        <span className={positiondot(prof.nature,"AS90data-dot-nature", "-r1")}></span>
+        <span className={positiondot(prof.religion,"AS90data-dot-religion", "-r1")}></span>
+        <span className={positiondot(prof.appraisal,"AS90data-dot-appraisal", "-r1")}></span>
 
-        <span className={positiondot(prof.animialhand,"AS90data-dot-animialhand")}></span>
-        <span className={positiondot(prof.insight,"AS90data-dot-insight")}></span>
-        <span className={positiondot(prof.medicine,"AS90data-dot-medicine")}></span>
-        <span className={positiondot(prof.perception,"AS90data-dot-perception")}></span>
-        <span className={positiondot(prof.survival,"AS90data-dot-survival")}></span>
+        <span className={positiondot(prof.animialhand,"AS90data-dot-animialhand", "-r2")}></span>
+        <span className={positiondot(prof.insight,"AS90data-dot-insight", "-r2")}></span>
+        <span className={positiondot(prof.medicine,"AS90data-dot-medicine", "-r2")}></span>
+        <span className={positiondot(prof.perception,"AS90data-dot-perception", "-r2")}></span>
+        <span className={positiondot(prof.survival,"AS90data-dot-survival", "-r2")}></span>
 
-        <span className={positiondot(prof.deception,"AS90data-dot-deception")}></span>
-        <span className={positiondot(prof.intimidation,"AS90data-dot-intimidation")}></span>
-        <span className={positiondot(prof.performance,"AS90data-dot-performance")}></span>
-        <span className={positiondot(prof.persuasion,"AS90data-dot-persuasion")}></span>
+        <span className={positiondot(prof.deception,"AS90data-dot-deception", "-r3")}></span>
+        <span className={positiondot(prof.intimidation,"AS90data-dot-intimidation", "-r3")}></span>
+        <span className={positiondot(prof.performance,"AS90data-dot-performance", "-r3")}></span>
+        <span className={positiondot(prof.persuasion,"AS90data-dot-persuasion", "-r3")}></span>
 
         <span className={positionsquare(prof.strsave,"AS90data-profsquare-strsave")}></span>
         <span className={positionsquare(prof.dexsave,"AS90data-profsquare-dexsave")}></span>

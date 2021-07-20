@@ -32,12 +32,12 @@
 
 .AS90data-str{
     font-size: 2em;
-    top: 90px;
-    left: 38px;
+    top: 50px;
+    left: 109px;
 }
 .AS90data-strmod{
-    top: 75px;
-    left: 40px;
+    top: 36px;
+    left: 110.5px;
 }
 
 .AS90data-dex{
@@ -62,22 +62,22 @@
 
 .AS90data-int{
     font-size: 2em;
-    top: 281px;
-    left: 39px;
+    top: 126px;
+    left: 109px;
 }
 .AS90data-intmod{
-    top: 266px;
-    left: 40px;
+    top: 113px;
+    left: 112px;
 }
 
 .AS90data-wis{
     font-size: 2em;
-    top: 347px;
-    left: 36.5px;
+    top: 126px;
+    left: 280px;
 }
 .AS90data-wismod{
-    top: 330.5px;
-    left: 42.5px;
+    top: 113.5px;
+    left: 288px;
 }
 
 .AS90data-cha{
@@ -91,143 +91,143 @@
 }
 
 .AS90data-strsave{
-    font-size: .65em;
-    top: 79.5px;
-    left: 105px;
+    font-size: .66em;
+    top: 39px;
+    left: 174px;
 }
 .AS90data-athletics{
-    font-size: .68em;
-    top: 87.4px;
-    left: 105px; 
+    font-size: .66em;
+    top: 47px;
+    left: 174px;
 }
 
 .AS90data-dexsave{
-    font-size: .68em;
-    top: 142px;
-    left: 105px;
+    font-size: .66em;
+    top: 39px;
+    left: 348px;
 }
 .AS90data-acrobatics{
-    font-size: .68em;
-    top: 150px;
-    left: 105px;
+    font-size: .66em;
+    top: 47px;
+    left: 348px;
 }
 .AS90data-sofhand{
-    font-size: .68em;
-    top: 157.8px;
-    left: 105px;
+    font-size: .66em;
+    top: 55px;
+    left: 348px;
 }
 .AS90data-stealth{
-    font-size: .68em;
-    top: 166px;
-    left: 105px;
+    font-size: .66em;
+    top: 64px;
+    left: 348px;
 }
 .AS90data-userope{
-    font-size: .68em;
-    top: 174px;
-    left: 105px;
+    font-size: .66em;
+    top: 72px;
+    left: 348px;
 }
 
 .AS90data-consave{
-    font-size: .68em;
-    top: 205.6px;
-    left: 105px;
+    font-size: .66em;
+    top: 39px;
+    left: 515px;
 }
 .AS90data-brewing{
-    font-size: .68em;
-    top: 213.7px;
-    left: 105px;
+    font-size: .66em;
+    top: 47.2px;
+    left: 515px;
 }
 
 .AS90data-intsave{
-    font-size: .68em;
-    top: 268px;
-    left: 105px;
+    font-size: .66em;
+    top: 117px;
+    left: 174px;
 }
 .AS90data-arcana{
-    font-size: .68em;
-    top: 275.5px;
-    left: 105px;
+    font-size: .66em;
+    top: 126px;
+    left: 174px;
 }
 .AS90data-lore{
-    font-size: .68em;
-    top: 283px;
-    left: 105px;
+    font-size: .66em;
+    top: 133px;
+    left: 174px;
 }
 .AS90data-investigate{
-    font-size: .68em;
-    top: 290.3px;
-    left: 105px;
+    font-size: .66em;
+    top: 141px;
+    left: 174px;
 }
 .AS90data-nature{
-    font-size: .68em;
-    top: 298px;
-    left: 105px;
+    font-size: .66em;
+    top: 149px;
+    left: 174px;
 }
 .AS90data-religion{
-    font-size: .68em;
-    top: 305.4px;
-    left: 105px;
+    font-size: .66em;
+    top: 156px;
+    left: 174px;
 }
 .AS90data-appraisal{
-    font-size: .68em;
-    top: 312.8px;
-    left: 105px;
+    font-size: .66em;
+    top: 164px;
+    left: 174px;
 }
 
 .AS90data-wissave{
-    font-size: .68em;
-    top: 334.6px;
-    left: 105px;
+    font-size: .66em;
+    top: 117px;
+    left: 348px;
 }
 .AS90data-animialhand{
-    font-size: .68em;
-    top: 342.6px;
-    left: 105px;
+    font-size: .66em;
+    top: 125px;
+    left: 348px;
 }
 .AS90data-insight{
-    font-size: .68em;
-    top: 350.5px;
-    left: 105px;
+    font-size: .66em;
+    top: 133px;
+    left: 348px;
 }
 .AS90data-medicine{
-    font-size: .68em;
-    top: 358.5px;
-    left: 105px;
+    font-size: .66em;
+    top: 141px;
+    left: 348px;
 }
 .AS90data-perception{
-    font-size: .68em;
-    top: 366.6px;
-    left: 105px;
+    font-size: .66em;
+    top: 149px;
+    left: 348px;
 }
 .AS90data-survival{
-    font-size: .68em;
-    top: 374.4px;
-    left: 105px;
+    font-size: .66em;
+    top: 156px;
+    left: 348px;
 }
 
 .AS90data-chasave{
-    font-size: .68em;
-    top: 116.3px;
+    font-size: .66em;
+    top: 116.1px;
     left: 515px;
 }
 .AS90data-deception{
-    font-size: .68em;
-    top: 125.2px;
+    font-size: .66em;
+    top: 124.2px;
     left: 515px;
 }
 .AS90data-intimidation{
-    font-size: .68em;
-    top: 132.2px;
+    font-size: .66em;
+    top: 132px;
     left: 515px;
 }
 .AS90data-performance{
-    font-size: .68em;
-    top: 140.3px;
+    font-size: .66em;
+    top: 140px;
     left: 515px;
 }
 .AS90data-persuasion{
-    font-size: .68em;
-    top: 148.2px;
+    font-size: .66em;
+    top: 148px;
     left: 515px;
 }
 
@@ -247,75 +247,87 @@
 .AS90data-nonat{
     visibility: hidden;
 }
-.AS90data-profat{
-    left: 85.5px;
+.AS90data-profat-r1{
+    left: 153.7px;
 }
-.AS90data-expertat{
-    left: 94.5px;
+.AS90data-profat-r2{
+    left: 329px;
+}
+.AS90data-profat-r3{
+    left: 495.7px;
+}
+.AS90data-expertat-r1{
+    left: 162.9px;
+}
+.AS90data-expertat-r2{
+    left: 337.8px;
+}
+.AS90data-expertat-r3{
+    left: 504.8px;
 }
 
 .AS90data-dot-athletics{
-    top: 90.5px;
+    top: 49.8px;;
 }
 .AS90data-dot-acrobatics{
-    top: 153px;
+    top: 49.8px;
 }
 .AS90data-dot-sofhand{
-    top: 160.9px;
+    top: 57.9px;
 }
 .AS90data-dot-stealth{
-    top: 168.8px;
+    top: 65.8px;
 }
 .AS90data-dot-userope{
-    top: 176.7px;
+    top: 73.7px;
 }
 .AS90data-dot-brewing{
-    top: 216px;
+    top: 49.8px;;
 }
 .AS90data-dot-arcana{
-    top: 278px;
+    top: 127px;
 }
 .AS90data-dot-lore{
-    top: 285.2px;
+    top: 135px;
 }
 .AS90data-dot-investigate{
-    top: 293px;
+    top: 142.6px;
 }
 .AS90data-dot-nature{
-    top: 300.2px;
+    top: 150.5px;
 }
 .AS90data-dot-religion{
-    top: 308.2px;
+    top: 158.5px;
 }
 .AS90data-dot-appraisal{
-    top: 315.2px;
+    top: 166.2px;
 }
 .AS90data-dot-animialhand{
-    top: 344.5px;
+    top: 127px;
 }
 .AS90data-dot-insight{
-    top: 352.3px;
+    top: 134.6px;
 }
 .AS90data-dot-medicine{
-    top: 360.3px;
+    top: 142.7px;
 }
 .AS90data-dot-perception{
-    top: 368.2px;
+    top: 150.7px;
 }
 .AS90data-dot-survival{
-    top: 376.2px;
+    top: 158.8px;
 }
 .AS90data-dot-deception{
-    top: 408px;
+    top: 127px;
 }
 .AS90data-dot-intimidation{
-    top: 416px;
+    top: 134.9px;
 }
 .AS90data-dot-performance{
-    top: 424px;
+    top: 142.9px;
 }
 .AS90data-dot-persuasion{
-    top: 431.7px;
+    top: 150.7px;
 }
 
 .AS90data-profsquare{
@@ -330,26 +342,30 @@
     position: absolute;
     padding: 0;
     margin: 0;
-
-    left: 89.8px
 }
 .AS90data-profsquare-strsave{
-    top: 82.7px
+    top: 42px;
+    left: 158.3px;
 }
 .AS90data-profsquare-dexsave{
-    top: 145px
+    top: 42px;
+    left: 333.3px
 }
 .AS90data-profsquare-consave{
-    top: 208.8px
+    top: 42px;
+    left: 500.3px
 }
 .AS90data-profsquare-intsave{
-    top: 271px
+    top: 119.5px;
+    left: 158.3px;
 }
 .AS90data-profsquare-wissave{
-    top: 337px
+    top: 119.5px;
+    left: 333.3px
 }
 .AS90data-profsquare-chasave{
-    top: 400.5px
+    top: 119.5px;
+    left: 500.3px
 }
 
 

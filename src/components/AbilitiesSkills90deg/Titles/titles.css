@@ -31,172 +31,181 @@
 
 .AS90title-str{
     font-size: .75em;
-    top: 115.5px;
-    left: 30px;
+    top: 75.5px;
+    left: 102px;
 }
 .AS90title-strsave{
     font-size: .7em;
-    top: 79.3px;
-    left: 118px;
+    top: 38.5px;
+    left: 186px;
+    white-space: nowrap;
 }
 .AS90title-athletics{
     font-size: .7em;
-    top: 87.3px;
-    left: 118px;
+    top: 46.5px;
+    left: 186px;
 }
 
 .AS90title-dex{
     font-size: .75em;
-    top: 76px;
+    top: 75.5px;
     left: 272px;
 }
 .AS90title-dexsave{
     font-size: .7em;
-    top: 142.2px;
-    left: 118px;
+    top: 38.5px;
+    left: 360px;
+    white-space: nowrap;
 }
 .AS90title-acrobatics{
     font-size: .7em;
-    top: 150.2px;
-    left: 118px;
+    top: 46.5px;
+    left: 360px;
 }
 .AS90title-sofhand{
     font-size: .7em;
-    top: 158.2px;
-    left: 118px;
+    top: 54.5px;
+    left: 360px;
+    white-space: nowrap;
 }
 .AS90title-stealth{
     font-size: .7em;
-    top: 166.2px;
-    left: 118px;
+    top: 62.3px;
+    left: 360px;
 }
 .AS90title-rope{
     font-size: .7em;
-    top: 174.2px;
-    left: 118px;
+    top: 70.3px;
+    left: 360px;
+    white-space: nowrap;
 }
 
 .AS90title-con{
     font-size: .75em;
-    top: 76px;
+    top: 75.5px;
     left: 437px;
 }
 .AS90title-consave{
     font-size: .7em;
-    top: 205.8px;
-    left: 118px;
+    top: 38.7px;
+    left: 528px;
+    white-space: nowrap;
 }
 .AS90title-brewing{
     font-size: .7em;
-    top: 214px;
-    left: 118px;
+    top: 46.5px;
+    left: 528px;
 }
 
 .AS90title-int{
     font-size: .75em;
-    top: 306px;
-    left: 24px;
+    top: 152px;
+    left: 97px;
 }
 .AS90title-intsave{
     font-size: .7em;
-    top: 269px;
-    left: 118px;
+    top: 115.5px;
+    left: 186px;
+    white-space: nowrap;
 }
 .AS90title-arcana{
     font-size: .7em;
-    top: 276px;
-    left: 118px;
+    top: 123.8px;
+    left: 186px;
 }
 .AS90title-history{
     font-size: .7em;
-    top: 283.5px;
-    left: 118px;
+    top: 131.6px;
+    left: 186px;
 }
 .AS90title-invest{
     font-size: .7em;
-    top: 291px;
-    left: 118px;
+    top: 139.5px;
+    left: 186px;
 }
 .AS90title-nature{
     font-size: .7em;
-    top: 299px;
-    left: 118px;
+    top: 147.5px;
+    left: 186px;
 }
 .AS90title-religion{
     font-size: .7em;
-    top: 306.5px;
-    left: 118px;
+    top: 155.3px;;
+    left: 186px;
 }
 .AS90title-appraisal{
     font-size: .7em;
-    top: 314px;
-    left: 118px;
+    top: 162.8px;
+    left: 186px;
 }
 
 .AS90title-wis{
     font-size: .75em;
-    top: 370.3px;
-    left: 31px;
+    top: 152px;
+    left: 280px;
 }
 .AS90title-wissave{
     font-size: .7em;
-    top: 335.5px;
-    left: 118px;
+    top: 115.5px;
+    left: 360px;
+    white-space: nowrap;
 }
 .AS90title-ahand{
     font-size: .7em;
-    top: 343.2px;
-    left: 118px;
+    top: 123.8px;
+    left: 360px;
+    white-space: nowrap;
 }
 .AS90title-insight{
     font-size: .7em;
-    top: 351.2px;
-    left: 118px;
+    top: 131.6px;
+    left: 360px;
+    white-space: nowrap;
 }
 .AS90title-medicine{
     font-size: .7em;
-    top: 359.4px;
-    left: 118px;
+    top: 139.5px;
+    left: 360px;
 }
 .AS90title-percept{
     font-size: .7em;
-    top: 367.2px;
-    left: 118px;
+    top: 147.5px;
+    left: 360px;
 }
 .AS90title-survival{
     font-size: .7em;
-    top: 375.1px;
-    left: 118px;
+    top: 155.3px;
+    left: 360px;
 }
 
 .AS90title-cha{
     font-size: .75em;
-    top: 152.3px;
+    top: 152px;
     left: 441px;
 }
 .AS90title-chasave{
     font-size: .7em;
-    top: 117px;
-    left: 530px;
+    top: 115.5px;
+    left: 528px;
     white-space: nowrap;
 }
 .AS90title-deception{
     font-size: .7em;
-    top: 125.3px;
-    left: 530px;
+    top: 123.8px;
+    left: 528px;
 }
 .AS90title-intimidate{
     font-size: .7em;
-    top: 133.3px;
-    left: 530px;;
+    top: 131.6px;
+    left: 528px;
 }
 .AS90title-performance{
     font-size: .7em;
-    top: 142px;
-    left: 530px;
+    top: 139.5px;
+    left: 528px;
 }
 .AS90title-persuasion{
     font-size: .7em;
-    top: 149px;
-    left: 530px;
+    top: 147.5px;
+    left: 528px;
 }
