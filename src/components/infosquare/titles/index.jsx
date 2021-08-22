@@ -39,9 +39,9 @@ class infosquaretitles extends React.Component {
 
     render() {
         const {
-            actions, powers, features, inventory, notes
+            actions, powers, features, inventory
         } = this.props;
-        
+
         return (
         <div className="infosquare-container">
             <Background/>
