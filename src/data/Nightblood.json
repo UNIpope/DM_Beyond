@@ -383,6 +383,11 @@
                 "name": "Fascinated by Mortals",
                 "shorttxt": "",
                 "desc": "Proficiency in History."
+            },
+            {
+                "name": "Dragonic aspect - 1/day",
+                "shorttxt": "",
+                "desc": "40ft fly speed. Size increase to large. Tail sweep to hit str+prof 2d8. on large or smaller enemy DC 8+Prof+str or creature is knocked prone. +2d8 cold damage on melee weapon attacks"
             }
         ],
         "other": [
