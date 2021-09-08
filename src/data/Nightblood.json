@@ -77,6 +77,12 @@
     "actions": {
         "attack": [
             {
+                "name": "DayBreak",
+                "hitdc": "+11",
+                "effect": "---",
+                "desc": "Dagger 2d4 | Shortsword 2d6 | Longsword* 2d8/2d10 | Greatsword* 3d6"
+            },
+            {
                 "name": "Eldritch Blast",
                 "hitdc": "+12",
                 "effect": "3d10+5",
@@ -133,6 +139,10 @@
             {
                 "name": "Dragonic Scale Mail",
                 "desc": "1/day, Detect chromatic dragons 30 miles."
+            },
+            {
+                "name": "Charming God Dragon",
+                "desc": "As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw."
             }
         ]
     },
