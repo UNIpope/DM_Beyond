@@ -41,7 +41,7 @@
             "stealth": 1,
             "userope": 0,
             "consave": 0,
-            "brewing": 0,
+            "brewing": 1,
             "intsave": 0,
             "arcana": 0,
             "lore": 1,
