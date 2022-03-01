@@ -72,7 +72,7 @@
         "armours": "Light Armor, Medium Armor, Shields",
         "weapons": "Martial Weapons, Simple Weapons  |  Thieves' Tools",
         "languages": "Abyssal, Common, Draconic, Elvish, Thieves’ Cant",
-        "senses": "220ft Sight in magical and non-magical Darkness"
+        "senses": "120ft Sight in magical and non-magical Darkness"
     },
     "actions": {
         "attack": [
