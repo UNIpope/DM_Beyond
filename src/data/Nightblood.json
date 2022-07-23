@@ -19,7 +19,7 @@
         "currentHP": "84"
     },
     "abilitiesSkills": {
-        "pbonus": "+3",
+        "pbonus": "+4",
         "str": "15",
         "strmod": "+2",
         "dex": "19",
@@ -77,29 +77,31 @@
     "actions": {
         "attack": [
             {
-                "name": "DayBreak",
+                "name": "DayBreak *2",
                 "hitdc": "+11",
                 "effect": "---",
                 "desc": "Dagger 2d4 | Shortsword 2d6 | Longsword* 2d8/2d10 | Greatsword* 3d6"
             },
             {
-                "name": "Eldritch Blast",
+                "name": "Eldritch Smite",
                 "hitdc": "+12",
                 "effect": "3d10+5",
                 "desc": "Mellee Cold"
             },
             {
                 "name": "Flux Curse",
-                "hitdc": "---",
+                "hitdc": "8+Con+Prof bonus",
                 "effect": "2d6",
                 "desc": "Bonus act / rest / Proc on Hit"
+            },
+            {
+                "name": "Breath Weapon",
+                "hitdc": "8+Con+Prof bonus",
+                "effect": "3d10 Cold",
+                "desc": "Uses = Prof bonus"
             }
         ],
         "bonus": [
-            {
-                "name": "Cunning Action",
-                "desc": "Dash, Disengage, or Hide action."
-            },
             {
                 "name": "Flux Curse",
                 "desc": "2d6 Cold on hit. Once per rest"
@@ -110,7 +112,11 @@
             },
             {
                 "name": "Dragonic Scale Mail",
-                "desc": "Don and doff armor."
+                "desc": "TP Don and doff armor."
+            },
+            {
+                "name": "Ethereal Jaunt",
+                "desc": "Teleport 30ft. Equal to your prof mod"
             }
         ],
         "reaction": [
@@ -119,12 +125,8 @@
                 "desc": "If a creature moves out of your reach make a melee attack."
             },
             {
-                "name": "Shield",
-                "desc": "+5 bonus to AC."
-            },
-            {
-                "name": "TP : 10 x 1/2 lvl",
-                "desc": "If creature Closes in, Spotted and Spell Att. Rest"
+                "name": "TP : 10ft. x 1/2 lvl",
+                "desc": "If creature Closes in end, Spotted and Spell Att."
             }
         ],
         "limited": [
@@ -143,6 +145,10 @@
             {
                 "name": "Charming God Dragon",
                 "desc": "As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw."
+            },
+            {
+                "name": "Pseudodragon Form",
+                "desc": "Once per day, polymorph into Silver Pseudodragon."
             }
         ]
     },
@@ -283,7 +289,7 @@
                 ],
                 "spell1": [
                     {
-                        "name": "Shield",
+                        "name": "Shield (1 per long rest)",
                         "RangeArea": "Self",
                         "components": "V,S",
                         "cost": true,
@@ -293,30 +299,6 @@
                         "dur": "1 round",
                         "desc": "An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.",
                         "link": "https://5e.tools/spells.html#shield_phb"
-                    },
-                    {
-                        "name": "Distort Value",
-                        "RangeArea": "Touch",
-                        "components": "V",
-                        "cost": true,
-                        "ritual": false,
-                        "castingTime": "1 Reaction",
-                        "effect": "x2 or 1/2 value : Investigation Vs S.DC",
-                        "dur": "Instant",
-                        "desc": "You cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.",
-                        "link": "https://5e.tools/spells.html#hellish%20rebuke_phb"
-                    },
-                    {
-                        "name": "Comprehend Lang",
-                        "RangeArea": "60 feet",
-                        "components": "V,S",
-                        "cost": false,
-                        "ritual": true,
-                        "castingTime": "1 Action",
-                        "effect": "Literal meaning of any language.",
-                        "dur": "1 round",
-                        "desc": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\nThis spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.",
-                        "link": "https://5e.tools/spells.html#magnify%20gravity_egw"
                     }
                 ],
                 "spell2": [],
@@ -345,10 +327,10 @@
             ],
             "abilities": [
                 {
-                    "name": "The FluxBlade",
+                    "name": "Fundamentals of Flux",
                     "lvl": "1",
                     "shorttxt": "By using the full amount of movement speed, you teleport there, provoking no attacks of opportunity.",
-                    "desc": "Your Eldritch Blast and Warlock’s Curse deal cold damage, this attack must be completed with a melee strike and has reach. By using the full amount of movement speed, you teleport there, provoking no attacks of opportunity.\nYou gain proficiency with medium armor, shields, and martial weapons."
+                    "desc": "Your attacks deal cold damage. By using the full amount of movement speed, you teleport there, provoking no attacks of opportunity.\nYou gain proficiency with medium armor, shields, and martial weapons."
                 },
                 {
                     "name": "The Exchange",
@@ -406,12 +388,12 @@
                 "desc": "You have advantage on Constitution saving throws that you make to maintain your concentration."
             },
             {
-                "name": "Agonizing Blast",
-                "desc": "When you cast eldritch blast, add +5 to the damage it deals on a hit."
+                "name": "Thirsting Steel",
+                "desc": "You can attack with a weapon affected by Blade of Shadows twice, instead of once, whenever you take the Attack action on your turn."
             },
             {
-                "name": "Repelling Blast",
-                "desc": "When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line."
+                "name": "Knowledge of Battle",
+                "desc": "You have a superior understanding of combat. You learn one Fighting Style of your choice. Blessed Warrior (Guidance + Spare the Dying)"
             },
             {
                 "name": "Mask of Many Faces",
@@ -422,12 +404,12 @@
                 "desc": "You can cast speak with animals at will, without expending a spell slot."
             },
             {
-                "name": "Armor of Shadows",
-                "desc": "You gain a bonus to your AC equal to half your proficiency modifier in this class(rounded down) while you are holding your spellcasting focus."
+                "name": "Cloak of Shadows",
+                "desc": "When you are in an area of dim light or darkness, you can use your action to become invisible until you take an action, a reaction, or move into an area of bright light."
             },
             {
-                "name": "Warlock’s Ire",
-                "desc": "All attack rolls against a creature affected by your Warlock’s Curse gain a 1d4 bonus."
+                "name": "Ethereal Jaunt",
+                "desc": "As a bonus action, you can teleport 30ft. You can do this a number of times equal to your proficiency modifier. Once you finish a short or long rest, you regain all expended uses of this power."
             }
         ]
     }
